@@ -1,0 +1,42 @@
+[0.352s] Invoking command in '/home/administrador/Desktop/dev_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/gazebo_dev
+[1.179s] -- The C compiler identification is GNU 11.4.0
+[1.582s] -- The CXX compiler identification is GNU 11.4.0
+[1.642s] -- Detecting C compiler ABI info
+[2.013s] -- Detecting C compiler ABI info - done
+[2.024s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.025s] -- Detecting C compile features
+[2.028s] -- Detecting C compile features - done
+[2.033s] -- Detecting CXX compiler ABI info
+[2.184s] -- Detecting CXX compiler ABI info - done
+[2.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.200s] -- Detecting CXX compile features
+[2.200s] -- Detecting CXX compile features - done
+[2.204s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.878s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.985s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.109s] -- Configuring done
+[3.114s] -- Generating done
+[3.135s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/gazebo_dev
+[3.137s] Invoked command in '/home/administrador/Desktop/dev_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/gazebo_dev
+[3.146s] Invoking command in '/home/administrador/Desktop/dev_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/gazebo_dev -- -j12 -l12
+[4.794s] Invoked command in '/home/administrador/Desktop/dev_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/gazebo_dev -- -j12 -l12
+[5.081s] Invoking command in '/home/administrador/Desktop/dev_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/gazebo_dev
+[7.362s] -- Install configuration: ""
+[7.362s] -- Execute custom install script
+[7.362s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[7.362s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[7.362s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[7.362s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/package.dsv
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[7.363s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[7.364s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[7.364s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[7.403s] Invoked command in '/home/administrador/Desktop/dev_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/gazebo_dev

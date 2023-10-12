@@ -1,0 +1,10 @@
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/uninstall.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/bondcpp_uninstall.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/bondcpp.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/test.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/edit_cache.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/rebuild_cache.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/list_install_components.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/install.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/install/local.dir
+/home/administrador/Desktop/dev_ws/build/bondcpp/CMakeFiles/install/strip.dir

@@ -1,0 +1,97 @@
+[0.586s] Invoking command in '/home/administrador/Desktop/dev_ws/build/self_test': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/diagnostics/self_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/self_test
+[5.382s] -- The C compiler identification is GNU 11.4.0
+[5.382s] -- The CXX compiler identification is GNU 11.4.0
+[5.382s] -- Detecting C compiler ABI info
+[5.382s] -- Detecting C compiler ABI info - done
+[5.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.383s] -- Detecting C compile features
+[5.383s] -- Detecting C compile features - done
+[5.383s] -- Detecting CXX compiler ABI info
+[5.384s] -- Detecting CXX compiler ABI info - done
+[5.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.384s] -- Detecting CXX compile features
+[5.384s] -- Detecting CXX compile features - done
+[5.384s] -- Build for iron
+[5.385s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[5.385s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.385s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.385s] -- Found diagnostic_msgs: 5.0.0 (/opt/ros/iron/share/diagnostic_msgs/cmake)
+[5.386s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[5.386s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[5.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.388s] -- Found diagnostic_updater: 3.1.2 (/home/administrador/Desktop/dev_ws/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[5.389s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[5.390s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[5.390s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.390s] -- Found FastRTPS: /opt/ros/iron/include  
+[5.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.391s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[5.391s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.391s] -- Looking for pthread.h
+[5.391s] -- Looking for pthread.h - found
+[5.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.393s] -- Found Threads: TRUE  
+[5.393s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.393s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/administrador/Desktop/dev_ws/src/diagnostics/self_test/include>
+[5.394s] -- Configured cppcheck exclude dirs and/or files: 
+[5.394s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.394s] -- Configured cpplint exclude dirs and/or files: 
+[5.394s] -- Added test 'lint_cmake' to check CMake code style
+[5.395s] -- Added test 'uncrustify' to check C / C++ code style
+[5.395s] -- Configured uncrustify additional arguments: 
+[5.395s] -- Added test 'xmllint' to check XML markup files
+[5.396s] -- Configuring done
+[5.396s] -- Generating done
+[5.396s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/self_test
+[5.529s] Invoked command in '/home/administrador/Desktop/dev_ws/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/diagnostics/self_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/self_test
+[5.530s] Invoking command in '/home/administrador/Desktop/dev_ws/build/self_test': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/self_test -- -j12 -l12
+[6.507s] [  6%] [32mBuilding CXX object CMakeFiles/run_selftest.dir/src/run_selftest.cpp.o[0m
+[12.163s] [ 12%] [32m[1mLinking CXX executable run_selftest[0m
+[12.756s] [ 12%] Built target run_selftest
+[12.781s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[17.080s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.166s] [ 25%] Built target gtest
+[17.189s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[17.958s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[18.098s] [ 37%] Built target gtest_main
+[18.123s] [ 43%] [32mBuilding CXX object CMakeFiles/selftest_example.dir/example/selftest_example.cpp.o[0m
+[24.040s] [ 50%] [32m[1mLinking CXX executable selftest_example[0m
+[24.239s] [ 50%] Built target selftest_example
+[24.259s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_error_selftest.dir/error_selftest.cpp.o[0m
+[31.552s] [ 62%] [32m[1mLinking CXX executable test_error_selftest[0m
+[32.029s] [ 62%] Built target test_error_selftest
+[32.058s] [ 68%] [32mBuilding CXX object test/CMakeFiles/test_exception_selftest.dir/exception_selftest.cpp.o[0m
+[39.811s] [ 75%] [32m[1mLinking CXX executable test_exception_selftest[0m
+[40.315s] [ 75%] Built target test_exception_selftest
+[40.335s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_no_id_selftest.dir/no_id_selftest.cpp.o[0m
+[46.919s] [ 87%] [32m[1mLinking CXX executable test_no_id_selftest[0m
+[47.205s] [ 87%] Built target test_no_id_selftest
+[47.225s] [ 93%] [32mBuilding CXX object test/CMakeFiles/test_nominal_selftest.dir/nominal_selftest.cpp.o[0m
+[53.143s] [100%] [32m[1mLinking CXX executable test_nominal_selftest[0m
+[53.480s] [100%] Built target test_nominal_selftest
+[53.493s] Invoked command in '/home/administrador/Desktop/dev_ws/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/self_test -- -j12 -l12
+[53.524s] Invoking command in '/home/administrador/Desktop/dev_ws/build/self_test': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/self_test
+[53.531s] -- Install configuration: ""
+[53.531s] -- Execute custom install script
+[53.532s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/include/self_test/test_runner.hpp
+[53.541s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/lib/self_test/run_selftest
+[53.550s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/lib/self_test/selftest_example
+[53.560s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/ament_index/resource_index/package_run_dependencies/self_test
+[53.570s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/ament_index/resource_index/parent_prefix_path/self_test
+[53.579s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/environment/ament_prefix_path.sh
+[53.589s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/environment/ament_prefix_path.dsv
+[53.604s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/environment/path.sh
+[53.617s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/environment/path.dsv
+[53.626s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/local_setup.bash
+[53.637s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/local_setup.sh
+[53.649s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/local_setup.zsh
+[53.659s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/local_setup.dsv
+[53.671s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/package.dsv
+[53.680s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/ament_index/resource_index/packages/self_test
+[53.689s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.699s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/cmake/self_testConfig.cmake
+[53.708s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/cmake/self_testConfig-version.cmake
+[53.717s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/self_test/share/self_test/package.xml
+[53.729s] Invoked command in '/home/administrador/Desktop/dev_ws/build/self_test' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/self_test

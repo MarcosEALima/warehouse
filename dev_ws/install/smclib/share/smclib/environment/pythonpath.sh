@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/smclib/ament_cmake_environment_hooks/pythonpath.sh

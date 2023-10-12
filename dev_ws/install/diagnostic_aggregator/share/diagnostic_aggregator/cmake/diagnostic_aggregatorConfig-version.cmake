@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/diagnostic_aggregator/ament_cmake_core/diagnostic_aggregatorConfig-version.cmake

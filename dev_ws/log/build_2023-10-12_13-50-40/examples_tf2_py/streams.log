@@ -1,0 +1,57 @@
+[1.933s] Invoking command in '/home/administrador/Desktop/dev_ws/build/examples_tf2_py': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2 LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/examples_tf2_py/prefix_override:/home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/examples_tf2_py/build --no-deps install_data
+[9.256s] running develop
+[9.256s] running egg_info
+[9.256s] creating examples_tf2_py.egg-info
+[9.257s] writing examples_tf2_py.egg-info/PKG-INFO
+[9.257s] writing dependency_links to examples_tf2_py.egg-info/dependency_links.txt
+[9.257s] writing entry points to examples_tf2_py.egg-info/entry_points.txt
+[9.258s] writing requirements to examples_tf2_py.egg-info/requires.txt
+[9.258s] writing top-level names to examples_tf2_py.egg-info/top_level.txt
+[9.258s] writing manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+[9.258s] reading manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+[9.259s] writing manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+[9.259s] running build_ext
+[9.259s] Creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples-tf2-py.egg-link (link to .)
+[9.260s] Installing async_waits_for_transform script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+[9.260s] Installing blocking_waits_for_transform script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+[9.260s] Installing dynamic_broadcaster script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+[9.261s] Installing frame_dumper script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+[9.261s] Installing static_broadcaster script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+[9.261s] Installing waits_for_transform script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+[9.262s] 
+[9.262s] Installed /home/administrador/Desktop/dev_ws/build/examples_tf2_py
+[9.262s] running install_data
+[9.262s] creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index
+[9.263s] creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index/resource_index
+[9.263s] creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index/resource_index/packages
+[9.263s] copying resource/examples_tf2_py -> /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index/resource_index/packages
+[9.264s] copying package.xml -> /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/examples_tf2_py
+[9.264s] creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/examples_tf2_py/launch
+[9.264s] copying launch/broadcasters.launch.xml -> /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/examples_tf2_py/launch
+[9.265s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[9.265s] !!
+[9.265s] 
+[9.265s]         ********************************************************************************
+[9.266s]         Please avoid running ``setup.py`` and ``easy_install``.
+[9.266s]         Instead, use pypa/build, pypa/installer or other
+[9.266s]         standards-based tools.
+[9.267s] 
+[9.267s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[9.267s]         ********************************************************************************
+[9.268s] 
+[9.268s] !!
+[9.268s]   easy_install.initialize_options(self)
+[9.268s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[9.269s] !!
+[9.269s] 
+[9.269s]         ********************************************************************************
+[9.269s]         Please avoid running ``setup.py`` directly.
+[9.270s]         Instead, use pypa/build, pypa/installer or other
+[9.270s]         standards-based tools.
+[9.270s] 
+[9.270s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[9.271s]         ********************************************************************************
+[9.271s] 
+[9.271s] !!
+[9.272s]   self.initialize_options()
+[9.531s] Invoked command in '/home/administrador/Desktop/dev_ws/build/examples_tf2_py' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2 LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/examples_tf2_py/prefix_override:/home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/examples_tf2_py/build --no-deps install_data

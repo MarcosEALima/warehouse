@@ -1,0 +1,44 @@
+[6.320s] Invoking command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build --no-deps install_data
+[10.870s] running develop
+[10.870s] running egg_info
+[10.870s] writing warehouse_robot_controller_pkg.egg-info/PKG-INFO
+[10.870s] writing dependency_links to warehouse_robot_controller_pkg.egg-info/dependency_links.txt
+[10.870s] writing entry points to warehouse_robot_controller_pkg.egg-info/entry_points.txt
+[10.870s] writing requirements to warehouse_robot_controller_pkg.egg-info/requires.txt
+[10.871s] writing top-level names to warehouse_robot_controller_pkg.egg-info/top_level.txt
+[10.871s] reading manifest file 'warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[10.871s] writing manifest file 'warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[10.871s] running build_ext
+[10.871s] Creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse-robot-controller-pkg.egg-link (link to .)
+[10.871s] Installing robot_controller script to /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[10.871s] Installing robot_estimator script to /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[10.871s] 
+[10.871s] Installed /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg
+[10.871s] running install_data
+[10.872s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[10.872s] !!
+[10.872s] 
+[10.872s]         ********************************************************************************
+[10.872s]         Please avoid running ``setup.py`` and ``easy_install``.
+[10.872s]         Instead, use pypa/build, pypa/installer or other
+[10.872s]         standards-based tools.
+[10.872s] 
+[10.872s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[10.872s]         ********************************************************************************
+[10.873s] 
+[10.873s] !!
+[10.873s]   easy_install.initialize_options(self)
+[10.873s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[10.873s] !!
+[10.873s] 
+[10.873s]         ********************************************************************************
+[10.873s]         Please avoid running ``setup.py`` directly.
+[10.873s]         Instead, use pypa/build, pypa/installer or other
+[10.873s]         standards-based tools.
+[10.874s] 
+[10.874s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[10.874s]         ********************************************************************************
+[10.874s] 
+[10.874s] !!
+[10.874s]   self.initialize_options()
+[10.915s] Invoked command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg' returned '0': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build --no-deps install_data

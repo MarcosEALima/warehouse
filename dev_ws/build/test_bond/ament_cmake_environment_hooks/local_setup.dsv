@@ -1,0 +1,4 @@
+source;share/test_bond/environment/ament_prefix_path.sh
+source;share/test_bond/environment/library_path.sh
+source;share/test_bond/environment/path.sh
+source;share/test_bond/environment/pythonpath.sh

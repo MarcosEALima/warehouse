@@ -1,0 +1,84 @@
+[0.504s] Invoking command in '/home/administrador/Desktop/dev_ws/build/bondcpp': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/smclib/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/bond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/bond_core/bondcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/bondcpp
+[3.896s] -- The C compiler identification is GNU 11.4.0
+[3.896s] -- The CXX compiler identification is GNU 11.4.0
+[3.897s] -- Detecting C compiler ABI info
+[3.897s] -- Detecting C compiler ABI info - done
+[3.897s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.897s] -- Detecting C compile features
+[3.897s] -- Detecting C compile features - done
+[3.897s] -- Detecting CXX compiler ABI info
+[3.897s] -- Detecting CXX compiler ABI info - done
+[3.897s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.897s] -- Detecting CXX compile features
+[3.897s] -- Detecting CXX compile features - done
+[3.898s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[3.898s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.898s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.898s] -- Found bond: 4.0.0 (/home/administrador/Desktop/dev_ws/install/bond/share/bond/cmake)
+[3.898s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.898s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.898s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[4.198s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[4.202s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.626s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.709s] -- Found FastRTPS: /opt/ros/iron/include  
+[4.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.270s] -- Found rclcpp_lifecycle: 21.0.3 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[5.523s] -- Found smclib: 4.0.0 (/home/administrador/Desktop/dev_ws/install/smclib/share/smclib/cmake)
+[5.528s] -- Looking for pthread.h
+[5.872s] -- Looking for pthread.h - found
+[5.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.309s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.309s] -- Found Threads: TRUE  
+[6.335s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.337s] -- Checking for module 'uuid'
+[6.510s] --   Found uuid, version 2.37.2
+[6.837s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[7.161s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.162s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/administrador/Desktop/dev_ws/src/bond_core/bondcpp/include>
+[7.162s] -- Configured cppcheck exclude dirs and/or files: 
+[7.169s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.169s] -- Configured cpplint exclude dirs and/or files: 
+[7.171s] -- Added test 'lint_cmake' to check CMake code style
+[7.174s] -- Added test 'uncrustify' to check C / C++ code style
+[7.174s] -- Configured uncrustify additional arguments: 
+[7.178s] -- Added test 'xmllint' to check XML markup files
+[7.197s] -- Configuring done
+[7.285s] -- Generating done
+[7.288s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/bondcpp
+[7.352s] Invoked command in '/home/administrador/Desktop/dev_ws/build/bondcpp' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/smclib/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/bond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/bond_core/bondcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/bondcpp
+[7.360s] Invoking command in '/home/administrador/Desktop/dev_ws/build/bondcpp': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/smclib/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/bond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/bondcpp -- -j12 -l12
+[9.685s] [ 33%] [32mBuilding CXX object CMakeFiles/bondcpp.dir/src/bond.cpp.o[0m
+[19.639s] [ 66%] [32mBuilding CXX object CMakeFiles/bondcpp.dir/src/BondSM_sm.cpp.o[0m
+[25.238s] [100%] [32m[1mLinking CXX shared library libbondcpp.so[0m
+[25.868s] [100%] Built target bondcpp
+[25.918s] Invoked command in '/home/administrador/Desktop/dev_ws/build/bondcpp' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/smclib/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/bond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/bondcpp -- -j12 -l12
+[26.306s] Invoking command in '/home/administrador/Desktop/dev_ws/build/bondcpp': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/smclib/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/bond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/bondcpp
+[35.693s] -- Install configuration: ""
+[35.694s] -- Execute custom install script
+[35.695s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/lib/libbondcpp.so
+[35.696s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/include/bondcpp/BondSM_sm.hpp
+[35.696s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/include/bondcpp/bond.hpp
+[35.697s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/environment/library_path.sh
+[35.698s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/environment/library_path.dsv
+[35.698s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/ament_index/resource_index/package_run_dependencies/bondcpp
+[35.698s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/ament_index/resource_index/parent_prefix_path/bondcpp
+[35.698s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/environment/ament_prefix_path.sh
+[35.699s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/environment/ament_prefix_path.dsv
+[35.699s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/environment/path.sh
+[35.699s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/environment/path.dsv
+[35.700s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/local_setup.bash
+[35.700s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/local_setup.sh
+[35.700s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/local_setup.zsh
+[35.701s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/local_setup.dsv
+[35.701s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/package.dsv
+[35.701s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/ament_index/resource_index/packages/bondcpp
+[35.702s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.702s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.702s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/cmake/ament_cmake_export_libraries-extras.cmake
+[35.703s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/cmake/bondcppConfig.cmake
+[35.703s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/cmake/bondcppConfig-version.cmake
+[35.703s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/package.xml
+[35.762s] Invoked command in '/home/administrador/Desktop/dev_ws/build/bondcpp' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/smclib:/home/administrador/Desktop/dev_ws/install/bond:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/bond/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/smclib/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/bond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/bondcpp

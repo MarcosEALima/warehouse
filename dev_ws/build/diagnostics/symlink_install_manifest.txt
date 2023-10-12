@@ -1,0 +1,15 @@
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/ament_index/resource_index/package_run_dependencies/diagnostics
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/ament_index/resource_index/parent_prefix_path/diagnostics
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.sh
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.dsv
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/environment/path.sh
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/environment/path.dsv
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/local_setup.bash
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/local_setup.sh
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/local_setup.zsh
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/local_setup.dsv
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/package.dsv
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/ament_index/resource_index/packages/diagnostics
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig.cmake
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig-version.cmake
+/home/administrador/Desktop/dev_ws/install/diagnostics/share/diagnostics/package.xml

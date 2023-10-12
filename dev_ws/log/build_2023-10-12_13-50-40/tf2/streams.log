@@ -1,0 +1,113 @@
+[0.670s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2
+[1.510s] -- The C compiler identification is GNU 11.4.0
+[1.920s] -- The CXX compiler identification is GNU 11.4.0
+[1.977s] -- Detecting C compiler ABI info
+[2.345s] -- Detecting C compiler ABI info - done
+[2.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.353s] -- Detecting C compile features
+[2.362s] -- Detecting C compile features - done
+[2.367s] -- Detecting CXX compiler ABI info
+[2.546s] -- Detecting CXX compiler ABI info - done
+[2.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.556s] -- Detecting CXX compile features
+[2.557s] -- Detecting CXX compile features - done
+[2.559s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[3.207s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.316s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.354s] -- Found console_bridge_vendor: 1.6.0 (/opt/ros/iron/share/console_bridge_vendor/cmake)
+[3.454s] -- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)
+[3.515s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.534s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.609s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[3.700s] -- Found ament_cmake_copyright: 0.14.2 (/opt/ros/iron/share/ament_cmake_copyright/cmake)
+[3.702s] -- Found ament_cmake_cppcheck: 0.14.2 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)
+[3.703s] -- Found ament_cmake_cpplint: 0.14.2 (/opt/ros/iron/share/ament_cmake_cpplint/cmake)
+[3.705s] -- Found ament_cmake_lint_cmake: 0.14.2 (/opt/ros/iron/share/ament_cmake_lint_cmake/cmake)
+[3.706s] -- Found ament_cmake_uncrustify: 0.14.2 (/opt/ros/iron/share/ament_cmake_uncrustify/cmake)
+[3.708s] -- Found ament_cmake_xmllint: 0.14.2 (/opt/ros/iron/share/ament_cmake_xmllint/cmake)
+[3.712s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.714s] -- Looking for pthread.h
+[3.806s] -- Looking for pthread.h - found
+[3.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.927s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.927s] -- Found Threads: TRUE  
+[4.028s] -- Configuring done
+[4.069s] -- Generating done
+[4.069s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2
+[4.084s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2
+[4.087s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2 -- -j12 -l12
+[5.111s] [  5%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/cache.cpp.o[0m
+[5.112s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.112s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.112s] [ 23%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o[0m
+[5.112s] [ 29%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o[0m
+[5.112s] [ 35%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/time.cpp.o[0m
+[6.514s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.738s] [ 41%] Built target gtest_main
+[7.648s] [ 47%] [32m[1mLinking CXX shared library libtf2.so[0m
+[8.197s] [ 47%] Built target tf2
+[10.742s] [ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.065s] [ 52%] Built target gtest
+[11.275s] [ 58%] [32mBuilding CXX object CMakeFiles/test_simple_tf2_core.dir/test/simple_tf2_core.cpp.o[0m
+[11.287s] [ 64%] [32mBuilding CXX object CMakeFiles/test_cache_unittest.dir/test/cache_unittest.cpp.o[0m
+[11.321s] [ 70%] [32mBuilding CXX object CMakeFiles/test_static_cache_unittest.dir/test/static_cache_test.cpp.o[0m
+[11.321s] [ 76%] [32mBuilding CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o[0m
+[15.297s] [ 82%] [32m[1mLinking CXX executable test_static_cache_unittest[0m
+[15.761s] [ 88%] [32m[1mLinking CXX executable test_time[0m
+[16.065s] [ 88%] Built target test_static_cache_unittest
+[16.191s] [ 94%] [32m[1mLinking CXX executable test_cache_unittest[0m
+[16.696s] [ 94%] Built target test_time
+[17.411s] [100%] [32m[1mLinking CXX executable test_simple_tf2_core[0m
+[17.524s] [100%] Built target test_cache_unittest
+[18.039s] [100%] Built target test_simple_tf2_core
+[18.119s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2 -- -j12 -l12
+[19.154s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2
+[24.126s] -- Install configuration: ""
+[24.126s] -- Execute custom install script
+[24.126s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/LinearMath/Matrix3x3.h
+[24.126s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/LinearMath/MinMax.h
+[24.126s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/LinearMath/QuadWord.h
+[24.126s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/LinearMath/Quaternion.h
+[24.127s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/LinearMath/Scalar.h
+[24.127s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/LinearMath/Transform.h
+[24.127s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/LinearMath/Vector3.h
+[24.127s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/buffer_core.h
+[24.127s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/buffer_core_interface.h
+[24.127s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/convert.h
+[24.128s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/exceptions.h
+[24.128s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/impl/convert.h
+[24.128s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/impl/utils.h
+[24.128s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/time.h
+[24.128s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/time_cache.h
+[24.128s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/transform_datatypes.h
+[24.129s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/transform_storage.h
+[24.129s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/utils.h
+[24.129s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/include/tf2/tf2/visibility_control.h
+[24.129s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/environment/library_path.sh
+[24.129s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/environment/library_path.dsv
+[24.129s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/ament_index/resource_index/package_run_dependencies/tf2
+[24.129s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/ament_index/resource_index/parent_prefix_path/tf2
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/environment/ament_prefix_path.sh
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/environment/ament_prefix_path.dsv
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/environment/path.sh
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/environment/path.dsv
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/local_setup.bash
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/local_setup.sh
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/local_setup.zsh
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/local_setup.dsv
+[24.130s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/package.dsv
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/ament_index/resource_index/packages/tf2
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/tf2Config.cmake
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/tf2Config-version.cmake
+[24.131s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/package.xml
+[24.131s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2/lib/libtf2.so
+[24.132s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2/lib/libtf2.so" to ""
+[24.132s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/export_tf2Export.cmake
+[24.132s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake/export_tf2Export-noconfig.cmake
+[24.437s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2

@@ -1,0 +1,235 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Found bond: 4.0.0 (/home/administrador/Desktop/dev_ws/install/bond/share/bond/cmake)
+-- Found bondcpp: 4.0.0 (/home/administrador/Desktop/dev_ws/install/bondcpp/share/bondcpp/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for one of the modules 'uuid'
+-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/administrador/Desktop/dev_ws/src/bond_core/test_bond/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/administrador/Desktop/dev_ws/build/test_bond
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target test_bond__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  7%] [32m[1mLinking CXX static library libgtest.a[0m
+[  7%] Built target gtest
+[ 10%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 12%] [32mBuilding C object CMakeFiles/test_bond__rosidl_generator_c.dir/rosidl_generator_c/test_bond/srv/detail/test_bond__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/test_bond__rosidl_generator_c.dir/rosidl_generator_c/test_bond/srv/detail/test_bond__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/test_bond__rosidl_generator_c.dir/rosidl_generator_c/test_bond/srv/detail/test_bond__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libtest_bond__rosidl_generator_c.so[0m
+[ 20%] Built target test_bond__rosidl_generator_c
+[ 22%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 22%] Built target test_bond__cpp
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/test_bond__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_bond/srv/test_bond__type_support.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library libtest_bond__rosidl_typesupport_c.so[0m
+[ 30%] Built target test_bond__rosidl_typesupport_c
+[ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/test_bond__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_bond/srv/detail/test_bond__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libtest_bond__rosidl_typesupport_introspection_cpp.so[0m
+[ 37%] Built target test_bond__rosidl_typesupport_introspection_cpp
+[ 40%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/test_bond__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_bond/srv/detail/dds_fastrtps/test_bond__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libtest_bond__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 45%] Built target test_bond__rosidl_typesupport_fastrtps_cpp
+[ 47%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_bond__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_bond/srv/test_bond__type_support.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library libtest_bond__rosidl_typesupport_cpp.so[0m
+[ 52%] Built target test_bond__rosidl_typesupport_cpp
+[ 55%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 57%] [32mBuilding C object CMakeFiles/test_bond__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_bond/srv/detail/test_bond__type_support.c.o[0m
+[ 60%] [32m[1mLinking C shared library libtest_bond__rosidl_typesupport_introspection_c.so[0m
+[ 60%] Built target test_bond__rosidl_typesupport_introspection_c
+[ 62%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/test_bond__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_bond/srv/detail/test_bond__type_support_c.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libtest_bond__rosidl_typesupport_fastrtps_c.so[0m
+[ 67%] Built target test_bond__rosidl_typesupport_fastrtps_c
+[ 70%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 72%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 72%] Built target gtest_main
+[ 72%] Built target test_bond
+[ 75%] [32mBuilding CXX object CMakeFiles/test_callbacks_cpp.dir/test/test_callbacks_cpp.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable test_callbacks_cpp[0m
+[ 77%] Built target test_callbacks_cpp
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target test_bond__py
+[ 80%] Built target ament_cmake_python_symlink_test_bond
+[ 82%] [32mBuilding C object CMakeFiles/test_bond__rosidl_generator_py.dir/rosidl_generator_py/test_bond/srv/_test_bond_s.c.o[0m
+[ 85%] [32m[1mLinking C shared library rosidl_generator_py/test_bond/libtest_bond__rosidl_generator_py.so[0m
+[ 85%] Built target test_bond__rosidl_generator_py
+running egg_info
+creating test_bond.egg-info
+writing test_bond.egg-info/PKG-INFO
+writing dependency_links to test_bond.egg-info/dependency_links.txt
+writing top-level names to test_bond.egg-info/top_level.txt
+writing manifest file 'test_bond.egg-info/SOURCES.txt'
+reading manifest file 'test_bond.egg-info/SOURCES.txt'
+writing manifest file 'test_bond.egg-info/SOURCES.txt'
+[ 85%] Built target ament_cmake_python_build_test_bond_egg
+[ 87%] [32mBuilding C object CMakeFiles/test_bond__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/test_bond/_test_bond_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/test_bond/test_bond_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 90%] Built target test_bond__rosidl_typesupport_c__pyext
+[ 92%] [32mBuilding C object CMakeFiles/test_bond__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/test_bond/_test_bond_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/test_bond/test_bond_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] Built target test_bond__rosidl_typesupport_introspection_c__pyext
+[ 97%] [32mBuilding C object CMakeFiles/test_bond__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/test_bond/_test_bond_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/test_bond/test_bond_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target test_bond__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/ament_index/resource_index/rosidl_interfaces/test_bond
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/srv/TestBond.json
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__functions.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__struct.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__type_support.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/test_bond.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/library_path.sh
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/library_path.dsv
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__builder.hpp
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__struct.hpp
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__traits.hpp
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/test_bond.hpp
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/include/test_bond/test_bond/srv/detail/test_bond__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/pythonpath.sh
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/pythonpath.dsv
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond-4.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond-4.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond-4.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond-4.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/__init__.py
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/_test_bond_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/_test_bond_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/_test_bond_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/libtest_bond__rosidl_generator_py.so
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/srv/__init__.py
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/srv/_test_bond.py
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/srv/_test_bond_s.c
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/test_bond_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/test_bond_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/test_bond_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/test_bond_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/test_bond_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/test_bond_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/srv/TestBond.idl
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/srv/TestBond.srv
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/srv/TestBond_Request.msg
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/srv/TestBond_Response.msg
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/ament_index/resource_index/package_run_dependencies/test_bond
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/ament_index/resource_index/parent_prefix_path/test_bond
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/ament_prefix_path.sh
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/ament_prefix_path.dsv
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/path.sh
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/environment/path.dsv
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/local_setup.bash
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/local_setup.sh
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/local_setup.zsh
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/local_setup.dsv
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/package.dsv
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/ament_index/resource_index/packages/test_bond
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bondConfig.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bondConfig-version.cmake
+-- Symlinking: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/package.xml
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_generator_c.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_generator_c.so" to ""
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_c.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_c.so" to ""
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_typesupport_cpp.so" to ""
+Listing '/home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond'...
+Compiling '/home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/__init__.py'...
+Listing '/home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/srv'...
+Compiling '/home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/srv/__init__.py'...
+Compiling '/home/administrador/Desktop/dev_ws/install/test_bond/lib/python3.10/site-packages/test_bond/srv/_test_bond.py'...
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_generator_py.so
+-- Set runtime path of "/home/administrador/Desktop/dev_ws/install/test_bond/lib/libtest_bond__rosidl_generator_py.so" to ""
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_generator_cExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_generator_cppExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_cExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/test_bond__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_generator_pyExport.cmake
+-- Installing: /home/administrador/Desktop/dev_ws/install/test_bond/share/test_bond/cmake/export_test_bond__rosidl_generator_pyExport-noconfig.cmake

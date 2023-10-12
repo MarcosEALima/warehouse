@@ -1,0 +1,25 @@
+{
+  "package_name": "geographic_msgs",
+  "non_idl_tuples": [
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/BoundingBox.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeographicMapChanges.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeographicMap.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeoPath.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeoPoint.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeoPointStamped.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeoPose.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeoPoseStamped.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeoPoseWithCovariance.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/GeoPoseWithCovarianceStamped.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/KeyValue.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/MapFeature.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/RouteNetwork.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/RoutePath.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/RouteSegment.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:msg/WayPoint.msg",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:srv/GetGeographicMap.srv",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:srv/GetGeoPath.srv",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:srv/GetRoutePlan.srv",
+    "/home/administrador/Desktop/dev_ws/src/geographic_info/geographic_msgs:srv/UpdateGeographicMap.srv"
+  ]
+}

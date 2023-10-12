@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake/export_anglesExport.cmake

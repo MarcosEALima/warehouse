@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/tf2_ros/ament_cmake_core/tf2_rosConfig-version.cmake

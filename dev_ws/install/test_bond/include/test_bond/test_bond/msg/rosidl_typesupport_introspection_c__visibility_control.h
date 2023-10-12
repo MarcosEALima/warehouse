@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/test_bond/rosidl_typesupport_introspection_c/test_bond/msg/rosidl_typesupport_introspection_c__visibility_control.h

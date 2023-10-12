@@ -1,0 +1,9 @@
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/uninstall.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/diagnostics_uninstall.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/test.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/edit_cache.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/rebuild_cache.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/list_install_components.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/install.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/install/local.dir
+/home/administrador/Desktop/dev_ws/build/diagnostics/CMakeFiles/install/strip.dir

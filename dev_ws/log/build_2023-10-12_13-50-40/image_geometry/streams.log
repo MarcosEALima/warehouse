@@ -1,0 +1,97 @@
+[0.089s] Invoking command in '/home/administrador/Desktop/dev_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/image_geometry
+[4.026s] -- The C compiler identification is GNU 11.4.0
+[4.026s] -- The CXX compiler identification is GNU 11.4.0
+[4.026s] -- Detecting C compiler ABI info
+[4.026s] -- Detecting C compiler ABI info - done
+[4.026s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.027s] -- Detecting C compile features
+[4.027s] -- Detecting C compile features - done
+[4.027s] -- Detecting CXX compiler ABI info
+[4.027s] -- Detecting CXX compiler ABI info - done
+[4.027s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.027s] -- Detecting CXX compile features
+[4.027s] -- Detecting CXX compile features - done
+[4.027s] -- Found ament_cmake_python: 2.0.3 (/opt/ros/iron/share/ament_cmake_python/cmake)
+[4.027s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[4.028s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.028s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.028s] -- Found OpenCV: /usr (found version "4.5.4") found components: calib3d core highgui imgproc 
+[4.028s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[4.028s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[4.028s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[4.028s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.028s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.029s] -- Looking for pthread.h
+[4.029s] -- Looking for pthread.h - found
+[4.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.393s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.394s] -- Found Threads: TRUE  
+[4.618s] -- Configuring done
+[4.642s] -- Generating done
+[4.644s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/image_geometry
+[4.678s] Invoked command in '/home/administrador/Desktop/dev_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/image_geometry
+[4.679s] Invoking command in '/home/administrador/Desktop/dev_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/image_geometry -- -j12 -l12
+[6.012s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.012s] [ 22%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[6.012s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[6.012s] [ 33%] Built target ament_cmake_python_symlink_image_geometry
+[6.012s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.013s] running egg_info
+[6.013s] creating image_geometry.egg-info
+[6.013s] writing image_geometry.egg-info/PKG-INFO
+[6.013s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[6.013s] writing top-level names to image_geometry.egg-info/top_level.txt
+[6.013s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[6.013s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[6.013s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[6.013s] [ 44%] Built target ament_cmake_python_build_image_geometry_egg
+[8.343s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.596s] [ 55%] Built target gtest_main
+[9.426s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[11.190s] [ 66%] Built target image_geometry
+[12.943s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.219s] [ 77%] Built target gtest
+[13.343s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[20.134s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[21.350s] [100%] Built target image_geometry-utest
+[21.424s] Invoked command in '/home/administrador/Desktop/dev_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/image_geometry -- -j12 -l12
+[22.168s] Invoking command in '/home/administrador/Desktop/dev_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/image_geometry
+[23.524s] -- Install configuration: ""
+[23.524s] -- Execute custom install script
+[23.524s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[23.524s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[23.524s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.4.0-py3.10.egg-info/PKG-INFO
+[23.524s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.4.0-py3.10.egg-info/SOURCES.txt
+[23.524s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.4.0-py3.10.egg-info/dependency_links.txt
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.4.0-py3.10.egg-info/top_level.txt
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/__init__.py
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/cameramodels.py
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.hpp
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.hpp
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[23.525s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[23.526s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[23.526s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[23.526s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[23.526s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[23.555s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[23.588s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[23.666s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[23.725s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/package.dsv
+[23.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[23.809s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[23.838s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.997s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[24.027s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[24.093s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/package.xml
+[24.408s] Listing '/home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry'...
+[24.410s] Compiling '/home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/__init__.py'...
+[24.411s] Compiling '/home/administrador/Desktop/dev_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/cameramodels.py'...
+[24.424s] -- Installing: /home/administrador/Desktop/dev_ws/install/image_geometry/lib/libimage_geometry.so
+[24.424s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[24.425s] -- Installing: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[24.425s] -- Installing: /home/administrador/Desktop/dev_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[26.469s] Invoked command in '/home/administrador/Desktop/dev_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/image_geometry

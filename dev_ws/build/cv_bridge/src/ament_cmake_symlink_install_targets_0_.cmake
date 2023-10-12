@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/administrador/Desktop/dev_ws/build/cv_bridge/src/boost/cv_bridge_boost.so" "TARGETS" "cv_bridge_boost" "DESTINATION" "lib/python3.10/site-packages/cv_bridge/boost/")

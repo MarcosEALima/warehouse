@@ -1,0 +1,55 @@
+running develop
+running egg_info
+creating examples_tf2_py.egg-info
+writing examples_tf2_py.egg-info/PKG-INFO
+writing dependency_links to examples_tf2_py.egg-info/dependency_links.txt
+writing entry points to examples_tf2_py.egg-info/entry_points.txt
+writing requirements to examples_tf2_py.egg-info/requires.txt
+writing top-level names to examples_tf2_py.egg-info/top_level.txt
+writing manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+reading manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+writing manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/python3.10/site-packages/examples-tf2-py.egg-link (link to .)
+Installing async_waits_for_transform script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+Installing blocking_waits_for_transform script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+Installing dynamic_broadcaster script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+Installing frame_dumper script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+Installing static_broadcaster script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+Installing waits_for_transform script to /home/administrador/Desktop/dev_ws/install/examples_tf2_py/lib/examples_tf2_py
+
+Installed /home/administrador/Desktop/dev_ws/build/examples_tf2_py
+running install_data
+creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index
+creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index/resource_index
+creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index/resource_index/packages
+copying resource/examples_tf2_py -> /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/examples_tf2_py
+creating /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/examples_tf2_py/launch
+copying launch/broadcasters.launch.xml -> /home/administrador/Desktop/dev_ws/install/examples_tf2_py/share/examples_tf2_py/launch
+/home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()

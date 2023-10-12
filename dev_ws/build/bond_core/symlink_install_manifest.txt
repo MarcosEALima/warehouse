@@ -1,0 +1,15 @@
+/home/administrador/Desktop/dev_ws/install/bond_core/share/ament_index/resource_index/package_run_dependencies/bond_core
+/home/administrador/Desktop/dev_ws/install/bond_core/share/ament_index/resource_index/parent_prefix_path/bond_core
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/environment/ament_prefix_path.sh
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/environment/ament_prefix_path.dsv
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/environment/path.sh
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/environment/path.dsv
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/local_setup.bash
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/local_setup.sh
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/local_setup.zsh
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/local_setup.dsv
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/package.dsv
+/home/administrador/Desktop/dev_ws/install/bond_core/share/ament_index/resource_index/packages/bond_core
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/cmake/bond_coreConfig.cmake
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/cmake/bond_coreConfig-version.cmake
+/home/administrador/Desktop/dev_ws/install/bond_core/share/bond_core/package.xml

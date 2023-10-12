@@ -1,0 +1,83 @@
+[0.218s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_bullet': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_bullet -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_bullet
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.363s] -- The CXX compiler identification is GNU 11.4.0
+[0.376s] -- Detecting C compiler ABI info
+[0.462s] -- Detecting C compiler ABI info - done
+[0.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.475s] -- Detecting C compile features
+[0.476s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.617s] -- Detecting CXX compiler ABI info - done
+[0.631s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.631s] -- Detecting CXX compile features
+[0.632s] -- Detecting CXX compile features - done
+[0.636s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.248s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.314s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.338s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.594s] -- Found tf2: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake)
+[1.618s] -- Found tf2_ros: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake)
+[2.089s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.094s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.260s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.291s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.705s] -- Found Bullet: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so  
+[3.708s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.711s] -- Found ament_cmake_cppcheck: 0.14.2 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)
+[3.830s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.835s] -- Looking for pthread.h
+[4.185s] -- Looking for pthread.h - found
+[4.185s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.275s] -- Found Threads: TRUE  
+[4.286s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.286s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.287s] -- Configured cpplint exclude dirs and/or files: 
+[4.287s] -- Added test 'lint_cmake' to check CMake code style
+[4.287s] -- Added test 'uncrustify' to check C / C++ code style
+[4.287s] -- Configured uncrustify additional arguments: 
+[4.291s] -- Added test 'xmllint' to check XML markup files
+[4.292s] -- Configuring done
+[4.361s] -- Generating done
+[4.364s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2_bullet
+[4.384s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_bullet' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_bullet -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_bullet
+[4.384s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_bullet': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_bullet -- -j12 -l12
+[4.443s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.746s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.789s] [ 33%] Built target gtest_main
+[5.818s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.085s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.255s] [ 66%] Built target gtest
+[10.286s] [ 83%] [32mBuilding CXX object CMakeFiles/test_bullet.dir/test/test_tf2_bullet.cpp.o[0m
+[17.082s] [100%] [32m[1mLinking CXX executable test_bullet[0m
+[17.551s] [100%] Built target test_bullet
+[17.571s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_bullet' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_bullet -- -j12 -l12
+[17.782s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_bullet': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_bullet
+[17.790s] -- Install configuration: ""
+[17.790s] -- Execute custom install script
+[17.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/include/tf2_bullet/tf2_bullet/tf2_bullet.h
+[17.806s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/include/tf2_bullet/tf2_bullet/tf2_bullet.hpp
+[17.823s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/ament_index/resource_index/package_run_dependencies/tf2_bullet
+[17.838s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/ament_index/resource_index/parent_prefix_path/tf2_bullet
+[17.852s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/environment/ament_prefix_path.sh
+[17.868s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/environment/ament_prefix_path.dsv
+[17.885s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/environment/path.sh
+[17.897s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/environment/path.dsv
+[17.921s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/local_setup.bash
+[17.934s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/local_setup.sh
+[17.951s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/local_setup.zsh
+[17.965s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/local_setup.dsv
+[17.989s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/package.dsv
+[18.010s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/ament_index/resource_index/packages/tf2_bullet
+[18.022s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/cmake/bullet-extras.cmake
+[18.035s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/cmake/ament_cmake_export_targets-extras.cmake
+[18.046s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/cmake/tf2_bulletConfig.cmake
+[18.062s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/cmake/tf2_bulletConfig-version.cmake
+[18.072s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/package.xml
+[18.082s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_bullet/share/tf2_bullet/cmake/export_tf2_bulletExport.cmake
+[18.242s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_bullet' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_bullet

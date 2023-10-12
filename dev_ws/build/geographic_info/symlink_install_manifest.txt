@@ -1,0 +1,15 @@
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/ament_index/resource_index/package_run_dependencies/geographic_info
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/ament_index/resource_index/parent_prefix_path/geographic_info
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/environment/ament_prefix_path.sh
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/environment/ament_prefix_path.dsv
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/environment/path.sh
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/environment/path.dsv
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/local_setup.bash
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/local_setup.sh
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/local_setup.zsh
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/local_setup.dsv
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/package.dsv
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/ament_index/resource_index/packages/geographic_info
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/cmake/geographic_infoConfig.cmake
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/cmake/geographic_infoConfig-version.cmake
+/home/administrador/Desktop/dev_ws/install/geographic_info/share/geographic_info/package.xml

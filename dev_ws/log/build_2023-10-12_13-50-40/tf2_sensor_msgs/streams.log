@@ -1,0 +1,112 @@
+[0.095s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_sensor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.357s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.357s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.505s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[1.699s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[1.702s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[1.715s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.716s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.821s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.916s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.930s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.954s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.107s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[2.233s] -- Found tf2: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake)
+[2.247s] -- Found tf2_ros: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake)
+[2.486s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.489s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.614s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.654s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.392s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[3.394s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.971s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.975s] -- Looking for pthread.h
+[4.064s] -- Looking for pthread.h - found
+[4.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.170s] -- Found Threads: TRUE  
+[4.179s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.181s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.181s] -- Configured cppcheck language: c++
+[4.181s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/administrador/Desktop/dev_ws/src/geometry2/tf2_sensor_msgs/include>;/home/administrador/Desktop/dev_ws/src/geometry2/tf2_sensor_msgs/include
+[4.182s] -- Configured cppcheck exclude dirs and/or files: 
+[4.184s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.184s] -- Configured cpplint exclude dirs and/or files: 
+[4.185s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.185s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.186s] -- Added test 'lint_cmake' to check CMake code style
+[4.187s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.188s] -- Added test 'uncrustify' to check C / C++ code style
+[4.189s] -- Configured uncrustify additional arguments: --language;CPP
+[4.189s] -- Added test 'xmllint' to check XML markup files
+[4.194s] -- Configuring done
+[4.225s] -- Generating done
+[4.228s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs
+[4.244s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_sensor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs
+[4.251s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs -- -j12 -l12
+[4.327s] [  0%] Built target ament_cmake_python_symlink_tf2_sensor_msgs
+[4.351s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.191s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.560s] [ 33%] Built target gtest
+[9.635s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.924s] running egg_info
+[9.926s] creating tf2_sensor_msgs.egg-info
+[9.955s] writing tf2_sensor_msgs.egg-info/PKG-INFO
+[9.956s] writing dependency_links to tf2_sensor_msgs.egg-info/dependency_links.txt
+[9.957s] writing top-level names to tf2_sensor_msgs.egg-info/top_level.txt
+[9.958s] writing manifest file 'tf2_sensor_msgs.egg-info/SOURCES.txt'
+[10.042s] reading manifest file 'tf2_sensor_msgs.egg-info/SOURCES.txt'
+[10.043s] writing manifest file 'tf2_sensor_msgs.egg-info/SOURCES.txt'
+[10.087s] [ 50%] Built target ament_cmake_python_build_tf2_sensor_msgs_egg
+[11.252s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[11.383s] [ 66%] Built target gtest_main
+[11.414s] [ 83%] [32mBuilding CXX object CMakeFiles/test_tf2_sensor_msgs_cpp.dir/test/test_tf2_sensor_msgs.cpp.o[0m
+[21.206s] [100%] [32m[1mLinking CXX executable test_tf2_sensor_msgs_cpp[0m
+[21.785s] [100%] Built target test_tf2_sensor_msgs_cpp
+[21.800s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs -- -j12 -l12
+[21.827s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs
+[21.834s] -- Install configuration: ""
+[21.834s] -- Execute custom install script
+[21.835s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/pythonpath.sh
+[21.843s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/pythonpath.dsv
+[21.851s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs-0.33.2-py3.10.egg-info/PKG-INFO
+[21.860s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs-0.33.2-py3.10.egg-info/SOURCES.txt
+[21.867s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs-0.33.2-py3.10.egg-info/dependency_links.txt
+[21.877s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs-0.33.2-py3.10.egg-info/top_level.txt
+[21.886s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs/__init__.py
+[21.896s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs/tf2_sensor_msgs.py
+[21.906s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/include/tf2_sensor_msgs/tf2_sensor_msgs/tf2_sensor_msgs.h
+[21.916s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/include/tf2_sensor_msgs/tf2_sensor_msgs/tf2_sensor_msgs.hpp
+[21.926s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/ament_index/resource_index/package_run_dependencies/tf2_sensor_msgs
+[21.936s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/ament_index/resource_index/parent_prefix_path/tf2_sensor_msgs
+[21.946s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/ament_prefix_path.sh
+[21.956s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/ament_prefix_path.dsv
+[21.966s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/path.sh
+[21.976s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/path.dsv
+[21.987s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.bash
+[21.998s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.sh
+[22.008s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.zsh
+[22.020s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.dsv
+[22.030s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/package.dsv
+[22.039s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/ament_index/resource_index/packages/tf2_sensor_msgs
+[22.048s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[22.057s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.065s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake
+[22.075s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
+[22.085s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/package.xml
+[22.131s] Listing '/home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs'...
+[22.132s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs/__init__.py'...
+[22.132s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/lib/python3.10/site-packages/tf2_sensor_msgs/tf2_sensor_msgs.py'...
+[22.137s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/export_tf2_sensor_msgsExport.cmake
+[22.140s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_sensor_msgs

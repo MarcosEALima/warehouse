@@ -1,0 +1,9 @@
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/uninstall.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/bond_core_uninstall.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/test.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/edit_cache.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/rebuild_cache.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/list_install_components.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/install.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/install/local.dir
+/home/administrador/Desktop/dev_ws/build/bond_core/CMakeFiles/install/strip.dir

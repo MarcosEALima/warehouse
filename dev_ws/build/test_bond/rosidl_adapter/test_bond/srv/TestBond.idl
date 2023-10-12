@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from test_bond/srv/TestBond.srv
+// generated code does not contain a copyright notice
+
+
+module test_bond {
+  module srv {
+    struct TestBond_Request {
+      string topic;
+
+      string id;
+
+      uint32 delay_connect;
+
+      uint32 delay_death;
+
+      boolean inhibit_death;
+
+      boolean inhibit_death_message;
+
+      int64 a;
+
+      int64 b;
+    };
+    struct TestBond_Response {
+      int64 sum;
+    };
+  };
+};

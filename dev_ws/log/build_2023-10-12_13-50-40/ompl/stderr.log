@@ -1,0 +1,4 @@
+[01m[K/home/administrador/Desktop/dev_ws/src/ompl/src/ompl/base/spaces/src/DubinsStateSpace.cpp:[m[K In function ‘[01m[K{anonymous}::DubinsClass {anonymous}::getDubinsClass(double, double, double)[m[K’:
+[01m[K/home/administrador/Desktop/dev_ws/src/ompl/src/ompl/base/spaces/src/DubinsStateSpace.cpp:399:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  399 |     DubinsClass getDubinsClass([01;35m[Kconst double d[m[K, const double alpha, const double beta)
+      |                                [01;35m[K~~~~~~~~~~~~~^[m[K

@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/bond_core/ament_cmake_core/bond_coreConfig.cmake

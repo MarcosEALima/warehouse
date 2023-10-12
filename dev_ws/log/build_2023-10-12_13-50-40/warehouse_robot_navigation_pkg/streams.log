@@ -1,0 +1,48 @@
+[2.137s] Invoking command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build --no-deps install_data
+[5.500s] running develop
+[5.501s] running egg_info
+[5.501s] creating warehouse_robot_navigation_pkg.egg-info
+[5.501s] writing warehouse_robot_navigation_pkg.egg-info/PKG-INFO
+[5.502s] writing dependency_links to warehouse_robot_navigation_pkg.egg-info/dependency_links.txt
+[5.502s] writing requirements to warehouse_robot_navigation_pkg.egg-info/requires.txt
+[5.502s] writing top-level names to warehouse_robot_navigation_pkg.egg-info/top_level.txt
+[5.502s] writing manifest file 'warehouse_robot_navigation_pkg.egg-info/SOURCES.txt'
+[5.503s] reading manifest file 'warehouse_robot_navigation_pkg.egg-info/SOURCES.txt'
+[5.503s] writing manifest file 'warehouse_robot_navigation_pkg.egg-info/SOURCES.txt'
+[5.503s] running build_ext
+[5.504s] Creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages/warehouse-robot-navigation-pkg.egg-link (link to .)
+[5.504s] 
+[5.504s] Installed /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg
+[5.505s] running install_data
+[5.505s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/share/ament_index
+[5.505s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/share/ament_index/resource_index
+[5.506s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/share/ament_index/resource_index/packages
+[5.506s] copying resource/warehouse_robot_navigation_pkg -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/share/ament_index/resource_index/packages
+[5.506s] copying package.xml -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/share/warehouse_robot_navigation_pkg
+[5.506s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.507s] !!
+[5.507s] 
+[5.508s]         ********************************************************************************
+[5.508s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.508s]         Instead, use pypa/build, pypa/installer or other
+[5.509s]         standards-based tools.
+[5.509s] 
+[5.510s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.510s]         ********************************************************************************
+[5.510s] 
+[5.511s] !!
+[5.511s]   easy_install.initialize_options(self)
+[5.511s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.512s] !!
+[5.512s] 
+[5.512s]         ********************************************************************************
+[5.512s]         Please avoid running ``setup.py`` directly.
+[5.513s]         Instead, use pypa/build, pypa/installer or other
+[5.513s]         standards-based tools.
+[5.514s] 
+[5.514s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.514s]         ********************************************************************************
+[5.514s] 
+[5.515s] !!
+[5.515s]   self.initialize_options()
+[5.516s] Invoked command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg' returned '0': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build --no-deps install_data

@@ -1,0 +1,301 @@
+[0.619s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_msgs
+[1.459s] -- The C compiler identification is GNU 11.4.0
+[1.866s] -- The CXX compiler identification is GNU 11.4.0
+[1.922s] -- Detecting C compiler ABI info
+[2.291s] -- Detecting C compiler ABI info - done
+[2.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.305s] -- Detecting C compile features
+[2.309s] -- Detecting C compile features - done
+[2.313s] -- Detecting CXX compiler ABI info
+[2.464s] -- Detecting CXX compiler ABI info - done
+[2.485s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.485s] -- Detecting CXX compile features
+[2.485s] -- Detecting CXX compile features - done
+[2.494s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[3.163s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.307s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[3.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.430s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[3.440s] -- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)
+[3.472s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[4.411s] -- Found ament_cmake_cppcheck: 0.14.2 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)
+[4.414s] -- Found ament_cmake_cpplint: 0.14.2 (/opt/ros/iron/share/ament_cmake_cpplint/cmake)
+[4.421s] -- Found ament_cmake_uncrustify: 0.14.2 (/opt/ros/iron/share/ament_cmake_uncrustify/cmake)
+[4.427s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[5.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.022s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.028s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[6.115s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.115s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.115s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.193s] -- Found PythonExtra: .so  
+[6.430s] -- Found ament_cmake_flake8: 0.14.2 (/opt/ros/iron/share/ament_cmake_flake8/cmake)
+[6.433s] -- Found ament_cmake_pep257: 0.14.2 (/opt/ros/iron/share/ament_cmake_pep257/cmake)
+[6.455s] -- Configuring done
+[6.540s] -- Generating done
+[6.551s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2_msgs
+[6.581s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_msgs
+[6.582s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_msgs -- -j12 -l12
+[8.254s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.254s] [  1%] Built target ament_cmake_python_symlink_tf2_msgs
+[8.255s] running egg_info
+[8.256s] creating tf2_msgs.egg-info
+[8.257s] [  1%] Built target tf2_msgs__rosidl_generator_type_description
+[8.257s] writing tf2_msgs.egg-info/PKG-INFO
+[8.258s] writing dependency_links to tf2_msgs.egg-info/dependency_links.txt
+[8.259s] writing top-level names to tf2_msgs.egg-info/top_level.txt
+[8.259s] writing manifest file 'tf2_msgs.egg-info/SOURCES.txt'
+[8.260s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.261s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.262s] reading manifest file 'tf2_msgs.egg-info/SOURCES.txt'
+[8.262s] writing manifest file 'tf2_msgs.egg-info/SOURCES.txt'
+[8.263s] [  4%] Built target ament_cmake_python_build_tf2_msgs_egg
+[10.601s] [  4%] Built target tf2_msgs__cpp
+[10.884s] [  6%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/msg/detail/tf2_error__description.c.o[0m
+[10.907s] [  7%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/msg/detail/tf2_error__functions.c.o[0m
+[10.920s] [  9%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/msg/detail/tf2_error__type_support.c.o[0m
+[10.962s] [ 10%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/msg/detail/tf_message__description.c.o[0m
+[11.095s] [ 12%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/msg/detail/tf_message__functions.c.o[0m
+[11.100s] [ 14%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/srv/detail/frame_graph__description.c.o[0m
+[11.101s] [ 15%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/msg/detail/tf_message__type_support.c.o[0m
+[11.124s] [ 17%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/srv/detail/frame_graph__type_support.c.o[0m
+[11.147s] [ 18%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/srv/detail/frame_graph__functions.c.o[0m
+[11.175s] [ 20%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/action/detail/lookup_transform__description.c.o[0m
+[11.207s] [ 21%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/action/detail/lookup_transform__functions.c.o[0m
+[11.223s] [ 23%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_c.dir/rosidl_generator_c/tf2_msgs/action/detail/lookup_transform__type_support.c.o[0m
+[12.083s] [ 25%] [32m[1mLinking C shared library libtf2_msgs__rosidl_generator_c.so[0m
+[12.725s] [ 25%] Built target tf2_msgs__rosidl_generator_c
+[12.815s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.837s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.845s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.877s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.909s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.910s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.905s] [ 35%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tf2_msgs/msg/tf2_error__type_support.cpp.o[0m
+[13.928s] [ 37%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tf2_msgs/msg/tf_message__type_support.cpp.o[0m
+[13.941s] [ 39%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tf2_msgs/srv/frame_graph__type_support.cpp.o[0m
+[14.091s] [ 40%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tf2_msgs/action/lookup_transform__type_support.cpp.o[0m
+[14.537s] [ 42%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tf2_msgs/msg/tf_message__type_support.cpp.o[0m
+[14.549s] [ 43%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tf2_msgs/msg/tf2_error__type_support.cpp.o[0m
+[14.567s] [ 45%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tf2_msgs/srv/frame_graph__type_support.cpp.o[0m
+[14.591s] [ 46%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tf2_msgs/action/lookup_transform__type_support.cpp.o[0m
+[14.876s] [ 48%] [32m[1mLinking CXX shared library libtf2_msgs__rosidl_typesupport_c.so[0m
+[15.075s] [ 50%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tf2_msgs/msg/detail/tf2_error__type_support.cpp.o[0m
+[15.135s] [ 51%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tf2_msgs/msg/detail/tf2_error__type_support_c.cpp.o[0m
+[15.140s] [ 53%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tf2_msgs/msg/detail/tf_message__type_support.cpp.o[0m
+[15.148s] [ 54%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tf2_msgs/srv/detail/frame_graph__type_support.cpp.o[0m
+[15.155s] [ 56%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tf2_msgs/action/detail/lookup_transform__type_support.cpp.o[0m
+[15.193s] [ 56%] Built target tf2_msgs__rosidl_typesupport_c
+[15.328s] [ 57%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tf2_msgs/msg/detail/tf_message__type_support_c.cpp.o[0m
+[15.362s] [ 59%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tf2_msgs/srv/detail/frame_graph__type_support_c.cpp.o[0m
+[15.467s] [ 60%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tf2_msgs/msg/detail/tf2_error__type_support.c.o[0m
+[15.541s] [ 62%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tf2_msgs/msg/detail/tf_message__type_support.c.o[0m
+[15.754s] [ 64%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tf2_msgs/action/detail/lookup_transform__type_support_c.cpp.o[0m
+[15.756s] [ 65%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tf2_msgs/srv/detail/frame_graph__type_support.c.o[0m
+[15.803s] [ 67%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tf2_msgs/action/detail/lookup_transform__type_support.c.o[0m
+[16.058s] [ 68%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tf2_msgs/msg/detail/dds_fastrtps/tf2_error__type_support.cpp.o[0m
+[16.084s] [ 70%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tf2_msgs/msg/detail/dds_fastrtps/tf_message__type_support.cpp.o[0m
+[16.149s] [ 71%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tf2_msgs/srv/detail/dds_fastrtps/frame_graph__type_support.cpp.o[0m
+[16.233s] [ 73%] [32m[1mLinking C shared library libtf2_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.501s] [ 75%] [32mBuilding CXX object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tf2_msgs/action/detail/dds_fastrtps/lookup_transform__type_support.cpp.o[0m
+[16.551s] [ 75%] Built target tf2_msgs__rosidl_typesupport_introspection_c
+[17.428s] [ 76%] [32m[1mLinking CXX shared library libtf2_msgs__rosidl_typesupport_cpp.so[0m
+[17.821s] [ 76%] Built target tf2_msgs__rosidl_typesupport_cpp
+[18.177s] [ 78%] [32m[1mLinking CXX shared library libtf2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.444s] [ 79%] [32m[1mLinking CXX shared library libtf2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[19.601s] [ 79%] Built target tf2_msgs__rosidl_typesupport_fastrtps_c
+[19.606s] [ 79%] Built target tf2_msgs__rosidl_typesupport_introspection_cpp
+[20.227s] [ 81%] [32m[1mLinking CXX shared library libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.700s] [ 81%] Built target tf2_msgs__rosidl_typesupport_fastrtps_cpp
+[20.842s] [ 81%] Built target tf2_msgs
+[21.010s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.674s] [ 82%] Built target tf2_msgs__py
+[29.915s] [ 84%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/msg/_tf2_error_s.c.o[0m
+[30.481s] [ 85%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/action/_lookup_transform_s.c.o[0m
+[31.715s] [ 87%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/srv/_frame_graph_s.c.o[0m
+[32.271s] [ 89%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_generator_py.dir/rosidl_generator_py/tf2_msgs/msg/_tf_message_s.c.o[0m
+[33.057s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/libtf2_msgs__rosidl_generator_py.so[0m
+[33.311s] [ 90%] Built target tf2_msgs__rosidl_generator_py
+[33.439s] [ 92%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[33.934s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[34.089s] [ 93%] Built target tf2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[34.220s] [ 95%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.890s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.144s] [ 96%] Built target tf2_msgs__rosidl_typesupport_c__pyext
+[35.272s] [ 98%] [32mBuilding C object CMakeFiles/tf2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.636s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.794s] [100%] Built target tf2_msgs__rosidl_typesupport_introspection_c__pyext
+[35.848s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_msgs -- -j12 -l12
+[37.275s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_msgs': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_msgs
+[41.786s] -- Install configuration: ""
+[41.787s] -- Execute custom install script
+[41.787s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/ament_index/resource_index/rosidl_interfaces/tf2_msgs
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/msg/TF2Error.json
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/msg/TFMessage.json
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph.json
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/action/LookupTransform.json
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__functions.h
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__struct.h
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__type_support.h
+[41.789s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/lookup_transform.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__functions.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__struct.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__type_support.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__functions.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_c__visibility_control.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf2_error.h
+[41.790s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf_message.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__functions.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/frame_graph.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/library_path.sh
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/library_path.dsv
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_fastrtps_c.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_fastrtps_c.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_fastrtps_c.h
+[41.791s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_fastrtps_c.h
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_introspection_c.h
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_introspection_c.h
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_introspection_c.h
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_introspection_c.h
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__builder.hpp
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__struct.hpp
+[41.792s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__traits.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/lookup_transform.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__builder.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__struct.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__traits.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf2_error.hpp
+[41.793s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_fastrtps_cpp.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_fastrtps_cpp.hpp
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[41.794s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[41.795s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/action/detail/lookup_transform__rosidl_typesupport_introspection_cpp.hpp
+[41.807s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf2_error__rosidl_typesupport_introspection_cpp.hpp
+[41.807s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__rosidl_typesupport_introspection_cpp.hpp
+[41.808s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__rosidl_typesupport_introspection_cpp.hpp
+[41.808s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/pythonpath.sh
+[41.808s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/pythonpath.dsv
+[41.809s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs-0.33.2-py3.10.egg-info/PKG-INFO
+[41.809s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs-0.33.2-py3.10.egg-info/SOURCES.txt
+[41.809s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs-0.33.2-py3.10.egg-info/dependency_links.txt
+[41.810s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs-0.33.2-py3.10.egg-info/top_level.txt
+[41.810s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/__init__.py
+[41.810s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_c.c
+[41.811s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[41.811s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/_tf2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[41.811s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/action/__init__.py
+[41.812s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/action/_lookup_transform.py
+[41.812s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/action/_lookup_transform_s.c
+[41.827s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/libtf2_msgs__rosidl_generator_py.so
+[41.827s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/__init__.py
+[41.828s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/_tf2_error.py
+[41.829s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/_tf2_error_s.c
+[41.829s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/_tf_message.py
+[41.829s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/_tf_message_s.c
+[41.830s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/srv/__init__.py
+[41.830s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/srv/_frame_graph.py
+[41.831s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/srv/_frame_graph_s.c
+[41.831s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[41.832s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[41.835s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[41.835s] -- Up-to-date symlink: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[41.836s] -- Up-to-date symlink: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[41.838s] -- Up-to-date symlink: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[41.838s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/msg/TF2Error.idl
+[41.838s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/msg/TFMessage.idl
+[41.839s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph.idl
+[41.839s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/action/LookupTransform.idl
+[41.839s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/msg/TF2Error.msg
+[41.839s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/msg/TFMessage.msg
+[41.840s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph.srv
+[41.840s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph_Request.msg
+[41.841s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/srv/FrameGraph_Response.msg
+[41.841s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/action/LookupTransform.action
+[41.841s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/tfmessage_bridge_mapping_rule.yaml
+[41.841s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/ament_index/resource_index/package_run_dependencies/tf2_msgs
+[41.841s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/ament_index/resource_index/parent_prefix_path/tf2_msgs
+[41.842s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/ament_prefix_path.sh
+[41.842s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/ament_prefix_path.dsv
+[41.842s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/path.sh
+[41.842s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/environment/path.dsv
+[41.843s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/local_setup.bash
+[41.843s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/local_setup.sh
+[41.843s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/local_setup.zsh
+[41.843s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/local_setup.dsv
+[41.844s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/package.dsv
+[41.844s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/ament_index/resource_index/packages/tf2_msgs
+[41.844s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/rosidl_cmake-extras.cmake
+[41.844s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.845s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.845s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[41.845s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[41.846s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[41.846s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[41.846s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgsConfig.cmake
+[41.846s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake
+[41.846s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/package.xml
+[41.846s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_generator_c.so
+[41.847s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_generator_c.so" to ""
+[41.847s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
+[41.847s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[41.848s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
+[41.848s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[41.848s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_c.so
+[41.849s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_c.so" to ""
+[41.849s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[41.849s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[41.850s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
+[41.850s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[41.850s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_cpp.so
+[41.850s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_typesupport_cpp.so" to ""
+[41.851s] Listing '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs'...
+[41.851s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/__init__.py'...
+[41.851s] Listing '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/action'...
+[41.852s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/action/__init__.py'...
+[41.852s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/action/_lookup_transform.py'...
+[41.852s] Listing '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg'...
+[41.853s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/__init__.py'...
+[41.853s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/_tf2_error.py'...
+[41.853s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/msg/_tf_message.py'...
+[41.854s] Listing '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/srv'...
+[41.854s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/srv/__init__.py'...
+[41.854s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages/tf2_msgs/srv/_frame_graph.py'...
+[41.854s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_generator_py.so
+[41.855s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/libtf2_msgs__rosidl_generator_py.so" to ""
+[41.855s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cExport.cmake
+[41.855s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cExport-noconfig.cmake
+[41.856s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[41.856s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[41.856s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[41.856s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[41.857s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cExport.cmake
+[41.857s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[41.857s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_cppExport.cmake
+[41.857s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[41.858s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[41.858s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[41.858s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[41.859s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cppExport.cmake
+[41.859s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/tf2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[41.859s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_pyExport.cmake
+[41.860s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake/export_tf2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[42.116s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_msgs' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_msgs

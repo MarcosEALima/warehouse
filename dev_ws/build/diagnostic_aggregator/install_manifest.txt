@@ -1,0 +1,4 @@
+/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so
+/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so
+/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport.cmake
+/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport-noconfig.cmake

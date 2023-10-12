@@ -1,0 +1,108 @@
+[0.326s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_geometry_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs
+[0.403s] -- The C compiler identification is GNU 11.4.0
+[0.480s] -- The CXX compiler identification is GNU 11.4.0
+[0.490s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.599s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.604s] -- Detecting CXX compiler ABI info
+[0.717s] -- Detecting CXX compiler ABI info - done
+[0.727s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.728s] -- Detecting CXX compile features
+[0.728s] -- Detecting CXX compile features - done
+[1.945s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[1.949s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[2.051s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.163s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.186s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.395s] -- Found orocos_kdl_vendor: 0.3.4 (/opt/ros/iron/share/orocos_kdl_vendor/cmake)
+[2.407s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[2.409s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.409s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.412s] -- Found tf2: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake)
+[2.428s] -- Found tf2_ros: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake)
+[2.724s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.728s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.878s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.925s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.582s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.033s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.036s] -- Looking for pthread.h
+[4.297s] -- Looking for pthread.h - found
+[4.297s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.389s] -- Found Threads: TRUE  
+[4.407s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.407s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.407s] -- Configured cpplint exclude dirs and/or files: 
+[4.408s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.408s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.408s] -- Added test 'lint_cmake' to check CMake code style
+[4.408s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.408s] -- Added test 'uncrustify' to check C / C++ code style
+[4.408s] -- Configured uncrustify additional arguments: 
+[4.408s] -- Added test 'xmllint' to check XML markup files
+[4.410s] -- Configuring done
+[4.442s] -- Generating done
+[4.445s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs
+[4.464s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_geometry_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs
+[4.466s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs -- -j12 -l12
+[4.544s] [  0%] Built target ament_cmake_python_symlink_tf2_geometry_msgs
+[4.573s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.029s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.191s] [ 33%] Built target gtest
+[9.245s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.521s] running egg_info
+[9.522s] creating tf2_geometry_msgs.egg-info
+[9.548s] writing tf2_geometry_msgs.egg-info/PKG-INFO
+[9.550s] writing dependency_links to tf2_geometry_msgs.egg-info/dependency_links.txt
+[9.552s] writing top-level names to tf2_geometry_msgs.egg-info/top_level.txt
+[9.553s] writing manifest file 'tf2_geometry_msgs.egg-info/SOURCES.txt'
+[9.638s] reading manifest file 'tf2_geometry_msgs.egg-info/SOURCES.txt'
+[9.639s] writing manifest file 'tf2_geometry_msgs.egg-info/SOURCES.txt'
+[9.720s] [ 50%] Built target ament_cmake_python_build_tf2_geometry_msgs_egg
+[10.819s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.907s] [ 66%] Built target gtest_main
+[10.938s] [ 83%] [32mBuilding CXX object CMakeFiles/test_tf2_geometry_msgs.dir/test/test_tf2_geometry_msgs.cpp.o[0m
+[19.211s] [100%] [32m[1mLinking CXX executable test_tf2_geometry_msgs[0m
+[19.884s] [100%] Built target test_tf2_geometry_msgs
+[19.897s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs -- -j12 -l12
+[19.943s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs
+[19.950s] -- Install configuration: ""
+[19.950s] -- Execute custom install script
+[19.951s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/pythonpath.sh
+[19.963s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/pythonpath.dsv
+[19.971s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs-0.33.2-py3.10.egg-info/PKG-INFO
+[19.983s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs-0.33.2-py3.10.egg-info/SOURCES.txt
+[19.996s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs-0.33.2-py3.10.egg-info/dependency_links.txt
+[20.007s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs-0.33.2-py3.10.egg-info/top_level.txt
+[20.018s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs/__init__.py
+[20.040s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs/tf2_geometry_msgs.py
+[20.052s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h
+[20.065s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp
+[20.078s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/ament_index/resource_index/package_run_dependencies/tf2_geometry_msgs
+[20.090s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/ament_index/resource_index/parent_prefix_path/tf2_geometry_msgs
+[20.100s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/ament_prefix_path.sh
+[20.110s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/ament_prefix_path.dsv
+[20.119s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/path.sh
+[20.128s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/environment/path.dsv
+[20.138s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.bash
+[20.147s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.sh
+[20.157s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.zsh
+[20.165s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/local_setup.dsv
+[20.178s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/package.dsv
+[20.188s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/ament_index/resource_index/packages/tf2_geometry_msgs
+[20.198s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.209s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.220s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake
+[20.232s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig-version.cmake
+[20.243s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/package.xml
+[20.298s] Listing '/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs'...
+[20.298s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs/__init__.py'...
+[20.299s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages/tf2_geometry_msgs/tf2_geometry_msgs.py'...
+[20.305s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake/export_tf2_geometry_msgsExport.cmake
+[20.307s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_geometry_msgs

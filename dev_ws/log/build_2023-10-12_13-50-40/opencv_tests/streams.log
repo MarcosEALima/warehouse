@@ -1,0 +1,52 @@
+[1.391s] Invoking command in '/home/administrador/Desktop/dev_ws/build/opencv_tests': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/cv_bridge LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/opencv_tests/prefix_override:/home/administrador/Desktop/dev_ws/install/opencv_tests/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/cv_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/opencv_tests/build --no-deps install_data
+[1.925s] running develop
+[1.925s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.927s] !!
+[1.927s] 
+[1.927s]         ********************************************************************************
+[1.927s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.927s]         Instead, use pypa/build, pypa/installer or other
+[1.928s]         standards-based tools.
+[1.928s] 
+[1.928s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.928s]         ********************************************************************************
+[1.928s] 
+[1.928s] !!
+[1.928s]   easy_install.initialize_options(self)
+[1.958s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.959s] !!
+[1.959s] 
+[1.959s]         ********************************************************************************
+[1.959s]         Please avoid running ``setup.py`` directly.
+[1.959s]         Instead, use pypa/build, pypa/installer or other
+[1.959s]         standards-based tools.
+[1.959s] 
+[1.959s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.959s]         ********************************************************************************
+[1.960s] 
+[1.960s] !!
+[1.960s]   self.initialize_options()
+[2.171s] running egg_info
+[2.172s] creating opencv_tests.egg-info
+[2.187s] writing opencv_tests.egg-info/PKG-INFO
+[2.187s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[2.188s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[2.188s] writing requirements to opencv_tests.egg-info/requires.txt
+[2.188s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[2.188s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.220s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.221s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.245s] running build_ext
+[2.245s] Creating /home/administrador/Desktop/dev_ws/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[2.246s] Installing broadcast script to /home/administrador/Desktop/dev_ws/install/opencv_tests/lib/opencv_tests
+[2.246s] Installing rosfacedetect script to /home/administrador/Desktop/dev_ws/install/opencv_tests/lib/opencv_tests
+[2.246s] Installing source script to /home/administrador/Desktop/dev_ws/install/opencv_tests/lib/opencv_tests
+[2.246s] 
+[2.246s] Installed /home/administrador/Desktop/dev_ws/build/opencv_tests
+[2.247s] running install_data
+[2.247s] creating /home/administrador/Desktop/dev_ws/install/opencv_tests/share/ament_index
+[2.247s] creating /home/administrador/Desktop/dev_ws/install/opencv_tests/share/ament_index/resource_index
+[2.247s] creating /home/administrador/Desktop/dev_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[2.247s] copying resource/opencv_tests -> /home/administrador/Desktop/dev_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[2.247s] copying package.xml -> /home/administrador/Desktop/dev_ws/install/opencv_tests/share/opencv_tests
+[2.288s] Invoked command in '/home/administrador/Desktop/dev_ws/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/cv_bridge LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/opencv_tests/prefix_override:/home/administrador/Desktop/dev_ws/install/opencv_tests/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/cv_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/opencv_tests/build --no-deps install_data

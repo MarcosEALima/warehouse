@@ -1,0 +1,86 @@
+[0.151s] Invoking command in '/home/administrador/Desktop/dev_ws/build/geodesy': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geographic_info/geodesy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/geodesy
+[0.246s] -- The C compiler identification is GNU 11.4.0
+[0.340s] -- The CXX compiler identification is GNU 11.4.0
+[0.353s] -- Detecting C compiler ABI info
+[0.545s] -- Detecting C compiler ABI info - done
+[0.559s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.559s] -- Detecting C compile features
+[0.560s] -- Detecting C compile features - done
+[0.564s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.662s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.662s] -- Detecting CXX compile features
+[0.663s] -- Detecting CXX compile features - done
+[0.666s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.138s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.213s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.246s] -- Found angles: 1.16.0 (/home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake)
+[1.247s] -- Found geographic_msgs: 1.0.5 (/home/administrador/Desktop/dev_ws/install/geographic_msgs/share/geographic_msgs/cmake)
+[1.289s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.302s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.659s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.946s] -- Configuring done
+[1.957s] -- Generating done
+[1.959s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/geodesy
+[1.967s] Invoked command in '/home/administrador/Desktop/dev_ws/build/geodesy' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geographic_info/geodesy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/geodesy
+[1.968s] Invoking command in '/home/administrador/Desktop/dev_ws/build/geodesy': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/geodesy -- -j12 -l12
+[2.025s] [  0%] Built target ament_cmake_python_symlink_geodesy
+[2.045s] [ 50%] [32mBuilding CXX object CMakeFiles/geoconv.dir/src/conv/utm_conversions.cpp.o[0m
+[2.760s] [100%] [32m[1mLinking CXX static library libgeoconv.a[0m
+[2.789s] [100%] Built target geoconv
+[3.031s] running egg_info
+[3.033s] creating geodesy.egg-info
+[3.049s] writing geodesy.egg-info/PKG-INFO
+[3.050s] writing dependency_links to geodesy.egg-info/dependency_links.txt
+[3.050s] writing top-level names to geodesy.egg-info/top_level.txt
+[3.050s] writing manifest file 'geodesy.egg-info/SOURCES.txt'
+[3.099s] reading manifest file 'geodesy.egg-info/SOURCES.txt'
+[3.099s] writing manifest file 'geodesy.egg-info/SOURCES.txt'
+[3.128s] [100%] Built target ament_cmake_python_build_geodesy_egg
+[3.139s] Invoked command in '/home/administrador/Desktop/dev_ws/build/geodesy' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/geodesy -- -j12 -l12
+[3.168s] Invoking command in '/home/administrador/Desktop/dev_ws/build/geodesy': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/geodesy
+[3.175s] -- Install configuration: ""
+[3.176s] -- Execute custom install script
+[3.176s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/pythonpath.sh
+[3.185s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/pythonpath.dsv
+[3.194s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy-1.0.5-py3.10.egg-info/PKG-INFO
+[3.203s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy-1.0.5-py3.10.egg-info/SOURCES.txt
+[3.213s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy-1.0.5-py3.10.egg-info/dependency_links.txt
+[3.224s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy-1.0.5-py3.10.egg-info/top_level.txt
+[3.235s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/__init__.py
+[3.245s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/bounding_box.py
+[3.255s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/props.py
+[3.265s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/utm.py
+[3.275s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/wu_point.py
+[3.288s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/include/geodesy//utm.h
+[3.298s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/include/geodesy//wgs84.h
+[3.309s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/lib/libgeoconv.a
+[3.318s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/library_path.sh
+[3.330s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/library_path.dsv
+[3.339s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/ament_index/resource_index/package_run_dependencies/geodesy
+[3.349s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/ament_index/resource_index/parent_prefix_path/geodesy
+[3.360s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/ament_prefix_path.sh
+[3.371s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/ament_prefix_path.dsv
+[3.381s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/path.sh
+[3.390s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/environment/path.dsv
+[3.399s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/local_setup.bash
+[3.409s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/local_setup.sh
+[3.418s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/local_setup.zsh
+[3.428s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/local_setup.dsv
+[3.437s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/package.dsv
+[3.447s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/ament_index/resource_index/packages/geodesy
+[3.457s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.467s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.476s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/cmake/ament_cmake_export_libraries-extras.cmake
+[3.485s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/cmake/geodesyConfig.cmake
+[3.495s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/cmake/geodesyConfig-version.cmake
+[3.504s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/geodesy/share/geodesy/package.xml
+[3.566s] Listing '/home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy'...
+[3.566s] Compiling '/home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/__init__.py'...
+[3.566s] Compiling '/home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/bounding_box.py'...
+[3.566s] Compiling '/home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/props.py'...
+[3.567s] Compiling '/home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/utm.py'...
+[3.567s] Compiling '/home/administrador/Desktop/dev_ws/install/geodesy/lib/python3.10/site-packages/geodesy/wu_point.py'...
+[3.575s] Invoked command in '/home/administrador/Desktop/dev_ws/build/geodesy' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/geodesy

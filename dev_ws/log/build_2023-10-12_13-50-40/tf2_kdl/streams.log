@@ -1,0 +1,101 @@
+[0.154s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_kdl': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_kdl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_kdl
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.290s] -- The CXX compiler identification is GNU 11.4.0
+[0.297s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.546s] -- Detecting CXX compiler ABI info - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.560s] -- Detecting CXX compile features
+[0.561s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.150s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.249s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.303s] -- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)
+[1.362s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.385s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.466s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.577s] -- Found orocos_kdl_vendor: 0.3.4 (/opt/ros/iron/share/orocos_kdl_vendor/cmake)
+[1.589s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[1.591s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.591s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.594s] -- Found tf2: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake)
+[1.610s] -- Found tf2_ros: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake)
+[1.938s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.944s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.127s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.171s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.244s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.246s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[3.249s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.253s] -- Looking for pthread.h
+[3.520s] -- Looking for pthread.h - found
+[3.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.709s] -- Found Threads: TRUE  
+[3.903s] -- Configuring done
+[3.932s] -- Generating done
+[3.935s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2_kdl
+[3.949s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_kdl' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_kdl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_kdl
+[3.951s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_kdl': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_kdl -- -j12 -l12
+[4.009s] [  0%] Built target ament_cmake_python_symlink_tf2_kdl
+[4.029s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.985s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.364s] [ 33%] Built target gtest
+[9.389s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.702s] running egg_info
+[9.705s] creating tf2_kdl.egg-info
+[9.737s] writing tf2_kdl.egg-info/PKG-INFO
+[9.737s] writing dependency_links to tf2_kdl.egg-info/dependency_links.txt
+[9.738s] writing top-level names to tf2_kdl.egg-info/top_level.txt
+[9.738s] writing manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+[9.829s] reading manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+[9.832s] writing manifest file 'tf2_kdl.egg-info/SOURCES.txt'
+[9.887s] [ 50%] Built target ament_cmake_python_build_tf2_kdl_egg
+[10.871s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.918s] [ 66%] Built target gtest_main
+[10.950s] [ 83%] [32mBuilding CXX object CMakeFiles/test_kdl.dir/test/test_tf2_kdl.cpp.o[0m
+[18.908s] [100%] [32m[1mLinking CXX executable test_kdl[0m
+[19.537s] [100%] Built target test_kdl
+[19.581s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_kdl' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_kdl -- -j12 -l12
+[19.620s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_kdl': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_kdl
+[19.627s] -- Install configuration: ""
+[19.628s] -- Execute custom install script
+[19.628s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/environment/pythonpath.sh
+[19.641s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/environment/pythonpath.dsv
+[19.654s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl-0.33.2-py3.10.egg-info/PKG-INFO
+[19.665s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl-0.33.2-py3.10.egg-info/SOURCES.txt
+[19.677s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl-0.33.2-py3.10.egg-info/dependency_links.txt
+[19.689s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl-0.33.2-py3.10.egg-info/top_level.txt
+[19.702s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl/__init__.py
+[19.711s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl/tf2_kdl.py
+[19.724s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/include/tf2_kdl/tf2_kdl/tf2_kdl.h
+[19.740s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/include/tf2_kdl/tf2_kdl/tf2_kdl.hpp
+[19.754s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/ament_index/resource_index/package_run_dependencies/tf2_kdl
+[19.766s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/ament_index/resource_index/parent_prefix_path/tf2_kdl
+[19.777s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/environment/ament_prefix_path.sh
+[19.787s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/environment/ament_prefix_path.dsv
+[19.800s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/environment/path.sh
+[19.812s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/environment/path.dsv
+[19.824s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/local_setup.bash
+[19.836s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/local_setup.sh
+[19.859s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/local_setup.zsh
+[19.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/local_setup.dsv
+[19.884s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/package.dsv
+[19.894s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/ament_index/resource_index/packages/tf2_kdl
+[19.904s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.915s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/cmake/ament_cmake_export_targets-extras.cmake
+[19.926s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.938s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/cmake/tf2_kdlConfig.cmake
+[19.947s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/cmake/tf2_kdlConfig-version.cmake
+[19.956s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/package.xml
+[20.002s] Listing '/home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl'...
+[20.002s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl/__init__.py'...
+[20.002s] Compiling '/home/administrador/Desktop/dev_ws/install/tf2_kdl/lib/python3.10/site-packages/tf2_kdl/tf2_kdl.py'...
+[20.007s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_kdl/share/tf2_kdl/cmake/export_tf2_kdlExport.cmake
+[20.011s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_kdl' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_kdl

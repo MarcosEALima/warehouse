@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/geodesy/ament_cmake_core/geodesyConfig-version.cmake

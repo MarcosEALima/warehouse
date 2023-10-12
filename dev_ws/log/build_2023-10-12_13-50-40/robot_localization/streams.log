@@ -1,0 +1,65 @@
+[0.130s] Invoking command in '/home/administrador/Desktop/dev_ws/build/robot_localization': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs:/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_eigen:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs:/home/administrador/Desktop/dev_ws/install/tf2_eigen:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/robot_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/robot_localization
+[0.251s] -- The C compiler identification is GNU 11.4.0
+[0.448s] -- The CXX compiler identification is GNU 11.4.0
+[0.457s] -- Detecting C compiler ABI info
+[0.569s] -- Detecting C compiler ABI info - done
+[0.582s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.583s] -- Detecting C compile features - done
+[0.588s] -- Detecting CXX compiler ABI info
+[0.702s] -- Detecting CXX compiler ABI info - done
+[0.719s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.719s] -- Detecting CXX compile features
+[0.720s] -- Detecting CXX compile features - done
+[0.721s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.725s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.288s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.393s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.453s] -- Found angles: 1.16.0 (/home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake)
+[1.459s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[1.542s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.566s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.877s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.880s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.025s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.068s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.134s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.457s] -- Found diagnostic_msgs: 5.0.0 (/opt/ros/iron/share/diagnostic_msgs/cmake)
+[2.613s] -- Found diagnostic_updater: 3.1.2 (/home/administrador/Desktop/dev_ws/install/diagnostic_updater/share/diagnostic_updater/cmake)
+[2.645s] -- Found geographic_msgs: 1.0.5 (/home/administrador/Desktop/dev_ws/install/geographic_msgs/share/geographic_msgs/cmake)
+[2.974s] -- Found message_filters: 4.7.0 (/opt/ros/iron/share/message_filters/cmake)
+[2.985s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[3.238s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[3.261s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[3.271s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[3.384s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[3.434s] -- Found tf2: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake)
+[3.450s] -- Found tf2_eigen: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/cmake)
+[4.140s] -- Found tf2_geometry_msgs: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+[4.160s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[4.164s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.164s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.195s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[4.200s] -- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)
+[4.247s] [31mCMake Error at CMakeLists.txt:39 (find_package):
+[4.249s]   By not providing "FindGeographicLib.cmake" in CMAKE_MODULE_PATH this
+[4.250s]   project has asked CMake to find a package configuration file provided by
+[4.251s]   "GeographicLib", but CMake did not find one.
+[4.252s] 
+[4.253s]   Could not find a package configuration file provided by "GeographicLib"
+[4.254s]   with any of the following names:
+[4.255s] 
+[4.256s]     GeographicLibConfig.cmake
+[4.258s]     geographiclib-config.cmake
+[4.259s] 
+[4.259s]   Add the installation prefix of "GeographicLib" to CMAKE_PREFIX_PATH or set
+[4.260s]   "GeographicLib_DIR" to a directory containing one of the above files.  If
+[4.260s]   "GeographicLib" provides a separate development package or SDK, be sure it
+[4.260s]   has been installed.
+[4.260s] 
+[4.260s] [0m
+[4.260s] -- Configuring incomplete, errors occurred!
+[4.260s] See also "/home/administrador/Desktop/dev_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[4.265s] Invoked command in '/home/administrador/Desktop/dev_ws/build/robot_localization' returned '1': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs:/home/administrador/Desktop/dev_ws/install/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_eigen:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs:/home/administrador/Desktop/dev_ws/install/tf2_eigen:/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/geographic_msgs:/home/administrador/Desktop/dev_ws/install/diagnostic_updater:/home/administrador/Desktop/dev_ws/install/angles:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib:/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_geometry_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/build/tf2_ros_py:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/geographic_msgs/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/diagnostic_updater/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/robot_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/robot_localization

@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/test_bond/ament_cmake_environment_hooks/local_setup.zsh

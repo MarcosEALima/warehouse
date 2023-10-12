@@ -1,0 +1,68 @@
+[1.380s] Invoking command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build
+[1.677s] running develop
+[1.677s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.677s] !!
+[1.677s] 
+[1.677s]         ********************************************************************************
+[1.677s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.677s]         Instead, use pypa/build, pypa/installer or other
+[1.677s]         standards-based tools.
+[1.678s] 
+[1.678s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.678s]         ********************************************************************************
+[1.678s] 
+[1.678s] !!
+[1.678s]   easy_install.initialize_options(self)
+[1.719s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.719s] !!
+[1.719s] 
+[1.719s]         ********************************************************************************
+[1.719s]         Please avoid running ``setup.py`` directly.
+[1.719s]         Instead, use pypa/build, pypa/installer or other
+[1.719s]         standards-based tools.
+[1.719s] 
+[1.719s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.719s]         ********************************************************************************
+[1.719s] 
+[1.719s] !!
+[1.719s]   self.initialize_options()
+[1.897s] Removing /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages/warehouse-robot-navigation-pkg.egg-link (link to .)
+[1.922s] Invoked command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg' returned '0': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build
+[1.924s] Invoking command in '/home/administrador/Desktop/dev_ws/src/warehouse_robot_navigation_pkg': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_navigation_pkg build --build-base /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build install --record /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/install.log --single-version-externally-managed
+[2.136s] running egg_info
+[2.156s] writing ../../build/warehouse_robot_navigation_pkg/warehouse_robot_navigation_pkg.egg-info/PKG-INFO
+[2.156s] writing dependency_links to ../../build/warehouse_robot_navigation_pkg/warehouse_robot_navigation_pkg.egg-info/dependency_links.txt
+[2.156s] writing requirements to ../../build/warehouse_robot_navigation_pkg/warehouse_robot_navigation_pkg.egg-info/requires.txt
+[2.157s] writing top-level names to ../../build/warehouse_robot_navigation_pkg/warehouse_robot_navigation_pkg.egg-info/top_level.txt
+[2.186s] reading manifest file '../../build/warehouse_robot_navigation_pkg/warehouse_robot_navigation_pkg.egg-info/SOURCES.txt'
+[2.220s] writing manifest file '../../build/warehouse_robot_navigation_pkg/warehouse_robot_navigation_pkg.egg-info/SOURCES.txt'
+[2.220s] running build
+[2.220s] running build_py
+[2.220s] creating /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build
+[2.220s] creating /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build/lib
+[2.220s] creating /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build/lib/warehouse_robot_navigation_pkg
+[2.220s] copying warehouse_robot_navigation_pkg/__init__.py -> /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build/lib/warehouse_robot_navigation_pkg
+[2.221s] running install
+[2.221s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.221s] !!
+[2.221s] 
+[2.221s]         ********************************************************************************
+[2.221s]         Please avoid running ``setup.py`` directly.
+[2.221s]         Instead, use pypa/build, pypa/installer or other
+[2.221s]         standards-based tools.
+[2.222s] 
+[2.222s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.222s]         ********************************************************************************
+[2.222s] 
+[2.222s] !!
+[2.222s]   self.initialize_options()
+[2.228s] running install_lib
+[2.242s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages/warehouse_robot_navigation_pkg
+[2.243s] copying /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build/lib/warehouse_robot_navigation_pkg/__init__.py -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages/warehouse_robot_navigation_pkg
+[2.243s] byte-compiling /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages/warehouse_robot_navigation_pkg/__init__.py to __init__.cpython-310.pyc
+[2.244s] running install_data
+[2.258s] running install_egg_info
+[2.274s] Copying ../../build/warehouse_robot_navigation_pkg/warehouse_robot_navigation_pkg.egg-info to /home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages/warehouse_robot_navigation_pkg-0.0.0-py3.10.egg-info
+[2.274s] running install_scripts
+[2.414s] writing list of installed files to '/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/install.log'
+[2.483s] Invoked command in '/home/administrador/Desktop/dev_ws/src/warehouse_robot_navigation_pkg' returned '0': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_navigation_pkg build --build-base /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/build install --record /home/administrador/Desktop/dev_ws/build/warehouse_robot_navigation_pkg/install.log --single-version-externally-managed

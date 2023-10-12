@@ -1,0 +1,12 @@
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/uninstall.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/geodesy_uninstall.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/ament_cmake_python_symlink_geodesy.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/ament_cmake_python_build_geodesy_egg.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/geoconv.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/test.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/edit_cache.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/rebuild_cache.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/list_install_components.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/install.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/install/local.dir
+/home/administrador/Desktop/dev_ws/build/geodesy/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/bond/rosidl_generator_cpp/bond/msg/detail/status__traits.hpp

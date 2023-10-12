@@ -1,0 +1,8 @@
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/uninstall.dir
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/geometry2_uninstall.dir
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/test.dir
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/edit_cache.dir
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/rebuild_cache.dir
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/list_install_components.dir
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/install.dir
+/home/administrador/Desktop/dev_ws/build/geometry2/CMakeFiles/install/local.dir

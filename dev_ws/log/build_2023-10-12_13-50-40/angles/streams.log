@@ -1,0 +1,81 @@
+[0.455s] Invoking command in '/home/administrador/Desktop/dev_ws/build/angles': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/angles/angles -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/angles
+[1.289s] -- The C compiler identification is GNU 11.4.0
+[1.690s] -- The CXX compiler identification is GNU 11.4.0
+[1.752s] -- Detecting C compiler ABI info
+[2.112s] -- Detecting C compiler ABI info - done
+[2.127s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.127s] -- Detecting C compile features
+[2.137s] -- Detecting C compile features - done
+[2.143s] -- Detecting CXX compiler ABI info
+[2.297s] -- Detecting CXX compiler ABI info - done
+[2.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.325s] -- Detecting CXX compile features
+[2.326s] -- Detecting CXX compile features - done
+[2.329s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[3.043s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.138s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.175s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[3.178s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.220s] -- Looking for pthread.h
+[3.583s] -- Looking for pthread.h - found
+[3.583s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.702s] -- Found Threads: TRUE  
+[3.705s] -- Found ament_cmake_pytest: 2.0.3 (/opt/ros/iron/share/ament_cmake_pytest/cmake)
+[4.388s] -- Configuring done
+[4.400s] -- Generating done
+[4.402s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/angles
+[4.427s] Invoked command in '/home/administrador/Desktop/dev_ws/build/angles' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/angles/angles -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/angles
+[4.427s] Invoking command in '/home/administrador/Desktop/dev_ws/build/angles': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/angles -- -j12 -l12
+[5.063s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.063s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.063s] [ 33%] Built target ament_cmake_python_symlink_angles
+[5.238s] running egg_info
+[5.257s] creating angles.egg-info
+[5.304s] writing angles.egg-info/PKG-INFO
+[5.305s] writing dependency_links to angles.egg-info/dependency_links.txt
+[5.305s] writing top-level names to angles.egg-info/top_level.txt
+[5.305s] writing manifest file 'angles.egg-info/SOURCES.txt'
+[5.460s] reading manifest file 'angles.egg-info/SOURCES.txt'
+[5.461s] writing manifest file 'angles.egg-info/SOURCES.txt'
+[5.576s] [ 33%] Built target ament_cmake_python_build_angles_egg
+[6.075s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.260s] [ 50%] Built target gtest_main
+[12.800s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.307s] [ 66%] Built target gtest
+[13.485s] [ 83%] [32mBuilding CXX object CMakeFiles/angles_utest.dir/test/utest.cpp.o[0m
+[16.348s] [100%] [32m[1mLinking CXX executable angles_utest[0m
+[17.140s] [100%] Built target angles_utest
+[17.186s] Invoked command in '/home/administrador/Desktop/dev_ws/build/angles' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/angles -- -j12 -l12
+[17.694s] Invoking command in '/home/administrador/Desktop/dev_ws/build/angles': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/angles
+[23.870s] -- Install configuration: ""
+[23.870s] -- Execute custom install script
+[23.870s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/include/angles/angles/angles.h
+[23.870s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/environment/pythonpath.sh
+[23.870s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/environment/pythonpath.dsv
+[23.870s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages/angles-1.16.0-py3.10.egg-info/PKG-INFO
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages/angles-1.16.0-py3.10.egg-info/SOURCES.txt
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages/angles-1.16.0-py3.10.egg-info/dependency_links.txt
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages/angles-1.16.0-py3.10.egg-info/top_level.txt
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages/angles/__init__.py
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/environment/ament_prefix_path.sh
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/environment/ament_prefix_path.dsv
+[23.871s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/environment/path.sh
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/environment/path.dsv
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/local_setup.bash
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/local_setup.sh
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/local_setup.zsh
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/local_setup.dsv
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/package.dsv
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/ament_index/resource_index/packages/angles
+[23.872s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.873s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake
+[23.873s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake/anglesConfig.cmake
+[23.873s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake/anglesConfig-version.cmake
+[23.873s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/angles/share/angles/package.xml
+[23.873s] Listing '/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages/angles'...
+[23.873s] Compiling '/home/administrador/Desktop/dev_ws/install/angles/lib/python3.10/site-packages/angles/__init__.py'...
+[23.873s] -- Installing: /home/administrador/Desktop/dev_ws/install/angles/share/angles/cmake/export_anglesExport.cmake
+[23.933s] Invoked command in '/home/administrador/Desktop/dev_ws/build/angles' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/angles

@@ -92,7 +92,7 @@ class Controller(Node):
     ################### ROBOT CONTROL PARAMETERS ##################
     # Maximum forward speed of the robot in meters per second
     # Any faster than this and the robot risks falling over.
-    self.forward_speed = 0.025
+    self.forward_speed = 0.01
  
     # Current position and orientation of the robot in the global 
     # reference frame
@@ -105,19 +105,19 @@ class Controller(Node):
     #  "turn left": Robot turns towards the left
     #  "search for wall": Robot tries to locate the wall        
     #  "follow wall": Robot moves parallel to the wall
-    self.wall_following_state = "follow wall"
+    self.wall_following_state = "turn left"
          
     # Set turning speeds (to the left) in rad/s 
     # These values were determined by trial and error.
-    self.turning_speed_wf_fast = 3.0  # Fast turn
-    self.turning_speed_wf_slow = 0.05 # Slow turn
+    self.turning_speed_wf_fast = 1.5  # Fast turn
+    self.turning_speed_wf_slow = 0.02 # Slow turn
  
     # Wall following distance threshold.
     # We want to try to keep within this distance from the wall.
-    self.dist_thresh_wf = 0.50 # in meters  
+    self.dist_thresh_wf = 0.70 # in meters  
  
     # We don't want to get too close to the wall though.
-    self.dist_too_close_to_wall = 0.19 # in meters
+    self.dist_too_close_to_wall = 0.3 # in meters
  
   def state_estimate_callback(self, msg):
     """

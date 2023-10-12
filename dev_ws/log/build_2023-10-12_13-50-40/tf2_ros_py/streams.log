@@ -1,0 +1,48 @@
+[1.822s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_ros_py': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2 LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py/prefix_override:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/tf2_ros_py/build --no-deps install_data
+[5.655s] running develop
+[5.656s] running egg_info
+[5.656s] creating tf2_ros_py.egg-info
+[5.656s] writing tf2_ros_py.egg-info/PKG-INFO
+[5.657s] writing dependency_links to tf2_ros_py.egg-info/dependency_links.txt
+[5.657s] writing requirements to tf2_ros_py.egg-info/requires.txt
+[5.657s] writing top-level names to tf2_ros_py.egg-info/top_level.txt
+[5.658s] writing manifest file 'tf2_ros_py.egg-info/SOURCES.txt'
+[5.658s] reading manifest file 'tf2_ros_py.egg-info/SOURCES.txt'
+[5.658s] writing manifest file 'tf2_ros_py.egg-info/SOURCES.txt'
+[5.658s] running build_ext
+[5.659s] Creating /home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages/tf2-ros-py.egg-link (link to .)
+[5.659s] 
+[5.659s] Installed /home/administrador/Desktop/dev_ws/build/tf2_ros_py
+[5.660s] running install_data
+[5.660s] creating /home/administrador/Desktop/dev_ws/install/tf2_ros_py/share/ament_index
+[5.660s] creating /home/administrador/Desktop/dev_ws/install/tf2_ros_py/share/ament_index/resource_index
+[5.661s] creating /home/administrador/Desktop/dev_ws/install/tf2_ros_py/share/ament_index/resource_index/packages
+[5.661s] copying resource/tf2_ros_py -> /home/administrador/Desktop/dev_ws/install/tf2_ros_py/share/ament_index/resource_index/packages
+[5.661s] copying package.xml -> /home/administrador/Desktop/dev_ws/install/tf2_ros_py/share/tf2_ros_py
+[5.662s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.662s] !!
+[5.663s] 
+[5.663s]         ********************************************************************************
+[5.663s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.664s]         Instead, use pypa/build, pypa/installer or other
+[5.664s]         standards-based tools.
+[5.665s] 
+[5.665s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.666s]         ********************************************************************************
+[5.666s] 
+[5.666s] !!
+[5.667s]   easy_install.initialize_options(self)
+[5.667s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.667s] !!
+[5.668s] 
+[5.670s]         ********************************************************************************
+[5.670s]         Please avoid running ``setup.py`` directly.
+[5.670s]         Instead, use pypa/build, pypa/installer or other
+[5.671s]         standards-based tools.
+[5.671s] 
+[5.671s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.671s]         ********************************************************************************
+[5.672s] 
+[5.672s] !!
+[5.672s]   self.initialize_options()
+[5.791s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_ros_py' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_py:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2 LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/build/tf2_ros_py/prefix_override:/home/administrador/Desktop/dev_ws/install/tf2_ros_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_py/lib/python3.10/site-packages:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/tf2_ros_py/build --no-deps install_data

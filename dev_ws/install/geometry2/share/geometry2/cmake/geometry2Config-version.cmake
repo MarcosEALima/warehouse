@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/build/geometry2/ament_cmake_core/geometry2Config-version.cmake

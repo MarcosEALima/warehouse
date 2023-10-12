@@ -1,0 +1,79 @@
+[0.273s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_eigen': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_eigen -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_eigen
+[0.344s] -- The C compiler identification is GNU 11.4.0
+[0.424s] -- The CXX compiler identification is GNU 11.4.0
+[0.435s] -- Detecting C compiler ABI info
+[0.522s] -- Detecting C compiler ABI info - done
+[0.532s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.532s] -- Detecting C compile features
+[0.532s] -- Detecting C compile features - done
+[0.536s] -- Detecting CXX compiler ABI info
+[0.653s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.668s] -- Detecting CXX compile features
+[0.668s] -- Detecting CXX compile features - done
+[0.672s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.194s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.273s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.318s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.372s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.389s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.604s] -- Found tf2: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake)
+[1.628s] -- Found tf2_ros: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake)
+[1.959s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.962s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.103s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.133s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.193s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.164s] -- Found ament_cmake_cppcheck: 0.14.2 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)
+[3.167s] -- Found ament_cmake_cpplint: 0.14.2 (/opt/ros/iron/share/ament_cmake_cpplint/cmake)
+[3.171s] -- Found ament_cmake_lint_cmake: 0.14.2 (/opt/ros/iron/share/ament_cmake_lint_cmake/cmake)
+[3.174s] -- Found ament_cmake_uncrustify: 0.14.2 (/opt/ros/iron/share/ament_cmake_uncrustify/cmake)
+[3.179s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[3.182s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.186s] -- Looking for pthread.h
+[3.654s] -- Looking for pthread.h - found
+[3.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.832s] -- Found Threads: TRUE  
+[3.901s] -- Configuring done
+[3.918s] -- Generating done
+[4.006s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2_eigen
+[4.022s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_eigen' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_eigen -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_eigen
+[4.024s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_eigen': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_eigen -- -j12 -l12
+[4.082s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.231s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.277s] [ 33%] Built target gtest_main
+[5.304s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.508s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.797s] [ 66%] Built target gtest
+[9.834s] [ 83%] [32mBuilding CXX object CMakeFiles/tf2_eigen-test.dir/test/tf2_eigen-test.cpp.o[0m
+[22.914s] [100%] [32m[1mLinking CXX executable tf2_eigen-test[0m
+[23.436s] [100%] Built target tf2_eigen-test
+[23.447s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_eigen' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_eigen -- -j12 -l12
+[23.469s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_eigen': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_eigen
+[23.477s] -- Install configuration: ""
+[23.477s] -- Execute custom install script
+[23.477s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/include/tf2_eigen/tf2_eigen/tf2_eigen.h
+[23.485s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp
+[23.493s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/ament_index/resource_index/package_run_dependencies/tf2_eigen
+[23.501s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/ament_index/resource_index/parent_prefix_path/tf2_eigen
+[23.510s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/environment/ament_prefix_path.sh
+[23.518s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/environment/ament_prefix_path.dsv
+[23.526s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/environment/path.sh
+[23.534s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/environment/path.dsv
+[23.542s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/local_setup.bash
+[23.550s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/local_setup.sh
+[23.559s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/local_setup.zsh
+[23.568s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/local_setup.dsv
+[23.576s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/package.dsv
+[23.583s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/ament_index/resource_index/packages/tf2_eigen
+[23.591s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.599s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.606s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/cmake/ament_cmake_export_targets-extras.cmake
+[23.614s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/cmake/tf2_eigenConfig.cmake
+[23.621s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/cmake/tf2_eigenConfig-version.cmake
+[23.628s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/package.xml
+[23.636s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_eigen/share/tf2_eigen/cmake/export_tf2_eigenExport.cmake
+[23.638s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_eigen' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros:/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_ros/lib:/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_eigen

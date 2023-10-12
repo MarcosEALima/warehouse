@@ -1,0 +1,1 @@
+/home/administrador/Desktop/dev_ws/src/diagnostics/diagnostic_updater/diagnostic_updater/example.py

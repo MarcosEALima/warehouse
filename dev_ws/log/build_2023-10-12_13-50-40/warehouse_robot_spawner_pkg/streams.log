@@ -1,0 +1,43 @@
+[2.296s] Invoking command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_spawner_pkg': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_spawner_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_spawner_pkg/build --no-deps install_data
+[9.874s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[9.874s] !!
+[9.875s] 
+[9.875s]         ********************************************************************************
+[9.875s]         Please avoid running ``setup.py`` and ``easy_install``.
+[9.875s]         Instead, use pypa/build, pypa/installer or other
+[9.875s]         standards-based tools.
+[9.876s] 
+[9.876s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[9.876s]         ********************************************************************************
+[9.876s] 
+[9.876s] !!
+[9.876s]   easy_install.initialize_options(self)
+[9.876s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[9.877s] !!
+[9.877s] 
+[9.877s]         ********************************************************************************
+[9.877s]         Please avoid running ``setup.py`` directly.
+[9.877s]         Instead, use pypa/build, pypa/installer or other
+[9.877s]         standards-based tools.
+[9.878s] 
+[9.878s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[9.878s]         ********************************************************************************
+[9.878s] 
+[9.878s] !!
+[9.878s]   self.initialize_options()
+[9.879s] running develop
+[9.879s] running egg_info
+[9.880s] writing warehouse_robot_spawner_pkg.egg-info/PKG-INFO
+[9.880s] writing dependency_links to warehouse_robot_spawner_pkg.egg-info/dependency_links.txt
+[9.880s] writing entry points to warehouse_robot_spawner_pkg.egg-info/entry_points.txt
+[9.880s] writing requirements to warehouse_robot_spawner_pkg.egg-info/requires.txt
+[9.881s] writing top-level names to warehouse_robot_spawner_pkg.egg-info/top_level.txt
+[9.881s] reading manifest file 'warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[9.881s] writing manifest file 'warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[9.881s] running build_ext
+[9.882s] Creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse-robot-spawner-pkg.egg-link (link to .)
+[9.882s] Installing spawn_demo script to /home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg/lib/warehouse_robot_spawner_pkg
+[9.883s] 
+[9.883s] Installed /home/administrador/Desktop/dev_ws/build/warehouse_robot_spawner_pkg
+[9.883s] running install_data
+[10.084s] Invoked command in '/home/administrador/Desktop/dev_ws/build/warehouse_robot_spawner_pkg' returned '0': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_spawner_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/administrador/Desktop/dev_ws/build/warehouse_robot_spawner_pkg/build --no-deps install_data

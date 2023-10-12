@@ -1,0 +1,8 @@
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/uninstall.dir
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/geographic_info_uninstall.dir
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/test.dir
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/edit_cache.dir
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/rebuild_cache.dir
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/list_install_components.dir
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/install.dir
+/home/administrador/Desktop/dev_ws/build/geographic_info/CMakeFiles/install/local.dir

@@ -1,0 +1,157 @@
+[0.130s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_ros': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_ros
+[8.694s] -- The C compiler identification is GNU 11.4.0
+[8.694s] -- The CXX compiler identification is GNU 11.4.0
+[8.694s] -- Detecting C compiler ABI info
+[8.694s] -- Detecting C compiler ABI info - done
+[8.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.695s] -- Detecting C compile features
+[8.695s] -- Detecting C compile features - done
+[8.699s] -- Detecting CXX compiler ABI info
+[8.700s] -- Detecting CXX compiler ABI info - done
+[8.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.701s] -- Detecting CXX compile features
+[8.701s] -- Detecting CXX compile features - done
+[8.701s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[8.701s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.701s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.701s] -- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)
+[8.702s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[8.702s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[8.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.702s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[8.702s] -- Found message_filters: 4.7.0 (/opt/ros/iron/share/message_filters/cmake)
+[8.702s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[8.702s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[8.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.703s] -- Found FastRTPS: /opt/ros/iron/include  
+[8.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.703s] -- Found rclcpp_action: 21.0.3 (/opt/ros/iron/share/rclcpp_action/cmake)
+[8.703s] -- Found rclcpp_components: 21.0.3 (/opt/ros/iron/share/rclcpp_components/cmake)
+[8.703s] -- Found tf2: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2/share/tf2/cmake)
+[8.703s] -- Found tf2_msgs: 0.33.2 (/home/administrador/Desktop/dev_ws/install/tf2_msgs/share/tf2_msgs/cmake)
+[8.703s] -- Found ament_cmake_cppcheck: 0.14.2 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)
+[8.703s] -- Found ament_cmake_cpplint: 0.14.2 (/opt/ros/iron/share/ament_cmake_cpplint/cmake)
+[8.703s] -- Found ament_cmake_lint_cmake: 0.14.2 (/opt/ros/iron/share/ament_cmake_lint_cmake/cmake)
+[8.704s] -- Found ament_cmake_uncrustify: 0.14.2 (/opt/ros/iron/share/ament_cmake_uncrustify/cmake)
+[8.704s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[8.704s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.704s] -- Looking for pthread.h
+[8.704s] -- Looking for pthread.h - found
+[8.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.705s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.719s] -- Found Threads: TRUE  
+[8.719s] -- Configuring done
+[8.719s] -- Generating done
+[8.720s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/tf2_ros
+[8.928s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_ros' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/geometry2/tf2_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/tf2_ros
+[8.928s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_ros': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_ros -- -j12 -l12
+[9.060s] [  2%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer.cpp.o[0m
+[16.496s] [  5%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/static_transform_broadcaster.cpp.o[0m
+[22.426s] [  7%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/transform_broadcaster.cpp.o[0m
+[28.008s] [ 10%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer_server.cpp.o[0m
+[32.781s] [ 12%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer_client.cpp.o[0m
+[38.313s] [ 15%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/transform_listener.cpp.o[0m
+[48.092s] [ 17%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/create_timer_ros.cpp.o[0m
+[52.094s] [ 20%] [32m[1mLinking CXX shared library libtf2_ros.so[0m
+[52.822s] [ 20%] Built target tf2_ros
+[52.842s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[56.362s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[56.951s] [ 25%] Built target gtest
+[56.970s] [ 27%] [32mBuilding CXX object CMakeFiles/tf2_monitor.dir/src/tf2_monitor.cpp.o[0m
+[64.797s] [ 30%] [32m[1mLinking CXX executable tf2_monitor[0m
+[65.428s] [ 30%] Built target tf2_monitor
+[65.447s] [ 32%] [32mBuilding CXX object CMakeFiles/tf2_echo.dir/src/tf2_echo.cpp.o[0m
+[69.897s] [ 35%] [32m[1mLinking CXX executable tf2_echo[0m
+[70.251s] [ 35%] Built target tf2_echo
+[70.272s] [ 37%] [32mBuilding CXX object CMakeFiles/static_transform_broadcaster_node.dir/src/static_transform_broadcaster_node.cpp.o[0m
+[75.313s] [ 40%] [32m[1mLinking CXX shared library libstatic_transform_broadcaster_node.so[0m
+[75.895s] [ 40%] Built target static_transform_broadcaster_node
+[75.927s] [ 42%] [32mBuilding CXX object CMakeFiles/buffer_server.dir/src/buffer_server_main.cpp.o[0m
+[75.928s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[77.910s] [ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[78.161s] [ 47%] Built target gtest_main
+[82.979s] [ 50%] [32m[1mLinking CXX executable buffer_server[0m
+[83.457s] [ 50%] Built target buffer_server
+[83.486s] [ 52%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_listener.dir/test/listener_unittest.cpp.o[0m
+[93.453s] [ 55%] [32m[1mLinking CXX executable tf2_ros_test_listener[0m
+[94.525s] [ 55%] Built target tf2_ros_test_listener
+[94.552s] [ 57%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_time_reset.dir/test/time_reset_test.cpp.o[0m
+[103.536s] [ 60%] [32m[1mLinking CXX executable tf2_ros_test_time_reset[0m
+[105.277s] [ 60%] Built target tf2_ros_test_time_reset
+[105.436s] [ 62%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_transform_broadcaster.dir/test/test_transform_broadcaster.cpp.o[0m
+[112.467s] [ 65%] [32m[1mLinking CXX executable tf2_ros_test_transform_broadcaster[0m
+[112.770s] [ 65%] Built target tf2_ros_test_transform_broadcaster
+[112.788s] [ 67%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_static_transform_broadcaster.dir/test/test_static_transform_broadcaster.cpp.o[0m
+[117.314s] [ 70%] [32m[1mLinking CXX executable tf2_ros_test_static_transform_broadcaster[0m
+[117.586s] [ 70%] Built target tf2_ros_test_static_transform_broadcaster
+[117.609s] [ 72%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_transform_listener.dir/test/test_transform_listener.cpp.o[0m
+[130.000s] [ 75%] [32m[1mLinking CXX executable tf2_ros_test_transform_listener[0m
+[131.627s] [ 75%] Built target tf2_ros_test_transform_listener
+[131.759s] [ 77%] [32mBuilding CXX object CMakeFiles/test_buffer_client.dir/test/test_buffer_client.cpp.o[0m
+[131.771s] [ 80%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_message_filter.dir/test/message_filter_test.cpp.o[0m
+[140.172s] [ 82%] [32m[1mLinking CXX executable test_buffer_client[0m
+[140.636s] [ 82%] Built target test_buffer_client
+[144.527s] [ 85%] [32m[1mLinking CXX executable tf2_ros_test_message_filter[0m
+[145.879s] [ 85%] Built target tf2_ros_test_message_filter
+[145.910s] [ 87%] [32mBuilding CXX object CMakeFiles/static_transform_publisher.dir/src/static_transform_broadcaster_program.cpp.o[0m
+[145.911s] [ 90%] [32mBuilding CXX object CMakeFiles/test_buffer_server.dir/test/test_buffer_server.cpp.o[0m
+[145.912s] [ 92%] [32mBuilding CXX object CMakeFiles/test_buffer.dir/test/test_buffer.cpp.o[0m
+[153.638s] [ 95%] [32m[1mLinking CXX executable static_transform_publisher[0m
+[154.254s] [ 95%] Built target static_transform_publisher
+[155.864s] [ 97%] [32m[1mLinking CXX executable test_buffer[0m
+[156.480s] [ 97%] Built target test_buffer
+[158.181s] [100%] [32m[1mLinking CXX executable test_buffer_server[0m
+[158.715s] [100%] Built target test_buffer_server
+[158.729s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_ros' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/tf2_ros -- -j12 -l12
+[158.806s] Invoking command in '/home/administrador/Desktop/dev_ws/build/tf2_ros': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_ros
+[158.812s] -- Install configuration: ""
+[158.813s] -- Execute custom install script
+[158.813s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/lib/tf2_ros/buffer_server
+[158.827s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/lib/tf2_ros/static_transform_publisher
+[158.841s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/lib/tf2_ros/tf2_echo
+[158.850s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/lib/tf2_ros/tf2_monitor
+[158.859s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/async_buffer_interface.h
+[158.868s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.h
+[158.876s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_client.h
+[158.885s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.h
+[158.895s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_server.h
+[158.904s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_interface.h
+[158.913s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_ros.h
+[158.922s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/message_filter.h
+[158.930s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/qos.hpp
+[158.939s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster.h
+[158.947s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_node.hpp
+[158.956s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_visibility_control.h
+[158.964s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_broadcaster.h
+[158.973s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.h
+[158.981s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/include/tf2_ros/tf2_ros/visibility_control.h
+[158.990s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/environment/library_path.sh
+[159.000s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/environment/library_path.dsv
+[159.010s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/ament_index/resource_index/package_run_dependencies/tf2_ros
+[159.018s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/ament_index/resource_index/parent_prefix_path/tf2_ros
+[159.027s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.sh
+[159.035s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.dsv
+[159.043s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/environment/path.sh
+[159.051s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/environment/path.dsv
+[159.060s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/local_setup.bash
+[159.068s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/local_setup.sh
+[159.076s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/local_setup.zsh
+[159.084s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/local_setup.dsv
+[159.093s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/package.dsv
+[159.101s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/ament_index/resource_index/packages/tf2_ros
+[159.109s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/ament_index/resource_index/rclcpp_components/tf2_ros
+[159.118s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[159.126s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[159.135s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake
+[159.143s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[159.151s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake
+[159.159s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake
+[159.167s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/package.xml
+[159.175s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_ros/lib/libtf2_ros.so
+[159.183s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_ros/lib/libtf2_ros.so" to ""
+[159.183s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so
+[159.185s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so" to ""
+[159.185s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport.cmake
+[159.185s] -- Installing: /home/administrador/Desktop/dev_ws/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport-noconfig.cmake
+[159.187s] Invoked command in '/home/administrador/Desktop/dev_ws/build/tf2_ros' returned '0': AMENT_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs:/home/administrador/Desktop/dev_ws/install/tf2:/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron LD_LIBRARY_PATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib:/home/administrador/Desktop/dev_ws/install/tf2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrador/Desktop/dev_ws/install/tf2_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/tf2_ros

@@ -1,0 +1,136 @@
+[0.144s] Invoking command in '/home/administrador/Desktop/dev_ws/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/diagnostics/diagnostic_aggregator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator
+[3.535s] -- The C compiler identification is GNU 11.4.0
+[3.535s] -- The CXX compiler identification is GNU 11.4.0
+[3.535s] -- Detecting C compiler ABI info
+[3.535s] -- Detecting C compiler ABI info - done
+[3.535s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.535s] -- Detecting C compile features
+[3.535s] -- Detecting C compile features - done
+[3.536s] -- Detecting CXX compiler ABI info
+[3.536s] -- Detecting CXX compiler ABI info - done
+[3.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.536s] -- Detecting CXX compile features
+[3.536s] -- Detecting CXX compile features - done
+[3.536s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[3.536s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.536s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.536s] -- Found diagnostic_msgs: 5.0.0 (/opt/ros/iron/share/diagnostic_msgs/cmake)
+[3.536s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.537s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.537s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[3.537s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[3.537s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.537s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.537s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.565s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.570s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.598s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.611s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.623s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.989s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.252s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[4.295s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.315s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.315s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.316s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.316s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.396s] -- Found PythonExtra: .so  
+[4.492s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.497s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/administrador/Desktop/dev_ws/src/diagnostics/diagnostic_aggregator/include>
+[4.498s] -- Configured cppcheck exclude dirs and/or files: 
+[4.498s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.498s] -- Configured cpplint exclude dirs and/or files: 
+[4.498s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.498s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.499s] -- Added test 'lint_cmake' to check CMake code style
+[4.501s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.504s] -- Added test 'uncrustify' to check C / C++ code style
+[4.505s] -- Configured uncrustify additional arguments: 
+[4.506s] -- Added test 'xmllint' to check XML markup files
+[4.511s] -- Configuring done
+[4.541s] -- Generating done
+[4.544s] -- Build files have been written to: /home/administrador/Desktop/dev_ws/build/diagnostic_aggregator
+[4.569s] Invoked command in '/home/administrador/Desktop/dev_ws/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake /home/administrador/Desktop/dev_ws/src/diagnostics/diagnostic_aggregator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator
+[4.570s] Invoking command in '/home/administrador/Desktop/dev_ws/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/diagnostic_aggregator -- -j12 -l12
+[5.470s] [  0%] Built target ament_cmake_python_symlink_diagnostic_aggregator
+[5.470s] [ 10%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/status_item.cpp.o[0m
+[5.471s] [ 20%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/aggregator.cpp.o[0m
+[5.471s] [ 30%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator.dir/src/analyzer_group.cpp.o[0m
+[5.641s] running egg_info
+[5.643s] creating diagnostic_aggregator.egg-info
+[5.668s] writing diagnostic_aggregator.egg-info/PKG-INFO
+[5.669s] writing dependency_links to diagnostic_aggregator.egg-info/dependency_links.txt
+[5.669s] writing top-level names to diagnostic_aggregator.egg-info/top_level.txt
+[5.689s] writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[5.826s] reading manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[5.826s] writing manifest file 'diagnostic_aggregator.egg-info/SOURCES.txt'
+[5.888s] [ 30%] Built target ament_cmake_python_build_diagnostic_aggregator_egg
+[38.542s] [ 40%] [32m[1mLinking CXX shared library libdiagnostic_aggregator.so[0m
+[40.125s] [ 40%] Built target diagnostic_aggregator
+[40.203s] [ 50%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/generic_analyzer.cpp.o[0m
+[49.445s] [ 60%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/ignore_analyzer.cpp.o[0m
+[55.430s] [ 70%] [32mBuilding CXX object CMakeFiles/diagnostic_aggregator_analyzers.dir/src/discard_analyzer.cpp.o[0m
+[61.245s] [ 80%] [32m[1mLinking CXX shared library libdiagnostic_aggregator_analyzers.so[0m
+[61.815s] [ 80%] Built target diagnostic_aggregator_analyzers
+[61.845s] [ 90%] [32mBuilding CXX object CMakeFiles/aggregator_node.dir/src/aggregator_node.cpp.o[0m
+[67.057s] [100%] [32m[1mLinking CXX executable aggregator_node[0m
+[67.372s] [100%] Built target aggregator_node
+[67.395s] Invoked command in '/home/administrador/Desktop/dev_ws/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --build /home/administrador/Desktop/dev_ws/build/diagnostic_aggregator -- -j12 -l12
+[67.792s] Invoking command in '/home/administrador/Desktop/dev_ws/build/diagnostic_aggregator': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/diagnostic_aggregator
+[68.019s] -- Install configuration: ""
+[68.020s] -- Execute custom install script
+[68.021s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/diagnostic_aggregator/aggregator_node
+[68.022s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/aggregator.hpp
+[68.023s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer.hpp
+[68.024s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/analyzer_group.hpp
+[68.025s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/discard_analyzer.hpp
+[68.026s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer.hpp
+[68.027s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/generic_analyzer_base.hpp
+[68.028s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/ignore_analyzer.hpp
+[68.029s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/other_analyzer.hpp
+[68.030s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/status_item.hpp
+[68.031s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/include/diagnostic_aggregator/visibility_control.hpp
+[68.032s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.sh
+[68.032s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/pythonpath.dsv
+[68.032s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/python3.10/site-packages/diagnostic_aggregator-3.1.2-py3.10.egg-info/PKG-INFO
+[68.033s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/python3.10/site-packages/diagnostic_aggregator-3.1.2-py3.10.egg-info/SOURCES.txt
+[68.033s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/python3.10/site-packages/diagnostic_aggregator-3.1.2-py3.10.egg-info/dependency_links.txt
+[68.033s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/python3.10/site-packages/diagnostic_aggregator-3.1.2-py3.10.egg-info/top_level.txt
+[68.033s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/python3.10/site-packages/diagnostic_aggregator/__init__.py
+[68.046s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/example.launch.py
+[68.060s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/diagnostic_aggregator/example_pub.py
+[68.071s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/example_analyzers.yaml
+[68.083s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator//plugin_description.xml
+[68.093s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/library_path.sh
+[68.102s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/library_path.dsv
+[68.113s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/ament_index/resource_index/package_run_dependencies/diagnostic_aggregator
+[68.123s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/ament_index/resource_index/parent_prefix_path/diagnostic_aggregator
+[68.135s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.sh
+[68.148s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/ament_prefix_path.dsv
+[68.161s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.sh
+[68.174s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/environment/path.dsv
+[68.184s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.bash
+[68.197s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.sh
+[68.205s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.zsh
+[68.215s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/local_setup.dsv
+[68.224s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/package.dsv
+[68.236s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/ament_index/resource_index/packages/diagnostic_aggregator
+[68.246s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/ament_index/resource_index/diagnostic_aggregator__pluginlib__plugin/diagnostic_aggregator
+[68.258s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_targets-extras.cmake
+[68.271s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.288s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.306s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig.cmake
+[68.321s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorConfig-version.cmake
+[68.334s] -- Symlinking: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/package.xml
+[68.351s] -- Installing: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so
+[68.367s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator.so" to ""
+[68.367s] -- Installing: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so
+[68.372s] -- Set runtime path of "/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/libdiagnostic_aggregator_analyzers.so" to ""
+[68.430s] Listing '/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/python3.10/site-packages/diagnostic_aggregator'...
+[68.430s] Compiling '/home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/lib/python3.10/site-packages/diagnostic_aggregator/__init__.py'...
+[68.439s] -- Installing: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport.cmake
+[68.439s] -- Installing: /home/administrador/Desktop/dev_ws/install/diagnostic_aggregator/share/diagnostic_aggregator/cmake/diagnostic_aggregatorTargetsExport-noconfig.cmake
+[68.453s] Invoked command in '/home/administrador/Desktop/dev_ws/build/diagnostic_aggregator' returned '0': CMAKE_PREFIX_PATH=/home/administrador/Desktop/dev_ws/install/warehouse_robot_spawner_pkg:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/iron /usr/bin/cmake --install /home/administrador/Desktop/dev_ws/build/diagnostic_aggregator
