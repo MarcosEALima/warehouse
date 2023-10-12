@@ -1,0 +1,62 @@
+[0.709s] Invoking command in '/home/administrador/Desktop/ros-iron/dev_ws/src/warehouse_robot_spawner_pkg': PYTHONPATH=/home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/prefix_override:/home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_spawner_pkg build --build-base /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build install --record /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/install.log --single-version-externally-managed
+[0.892s] running egg_info
+[0.893s] creating ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info
+[0.907s] writing ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/PKG-INFO
+[0.907s] writing dependency_links to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/dependency_links.txt
+[0.907s] writing entry points to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/entry_points.txt
+[0.908s] writing requirements to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/requires.txt
+[0.908s] writing top-level names to ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/top_level.txt
+[0.908s] writing manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[0.935s] reading manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[0.935s] writing manifest file '../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info/SOURCES.txt'
+[0.935s] running build
+[0.936s] running build_py
+[0.936s] creating /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build
+[0.936s] creating /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build/lib
+[0.936s] creating /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[0.936s] copying warehouse_robot_spawner_pkg/spawn_demo.py -> /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[0.936s] copying warehouse_robot_spawner_pkg/__init__.py -> /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg
+[0.936s] running install
+[0.936s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.936s] !!
+[0.937s] 
+[0.937s]         ********************************************************************************
+[0.937s]         Please avoid running ``setup.py`` directly.
+[0.937s]         Instead, use pypa/build, pypa/installer or other
+[0.937s]         standards-based tools.
+[0.937s] 
+[0.937s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.937s]         ********************************************************************************
+[0.937s] 
+[0.937s] !!
+[0.937s]   self.initialize_options()
+[0.941s] running install_lib
+[0.954s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[0.954s] copying /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg/spawn_demo.py -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[0.954s] copying /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build/lib/warehouse_robot_spawner_pkg/__init__.py -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg
+[0.955s] byte-compiling /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg/spawn_demo.py to spawn_demo.cpython-310.pyc
+[0.955s] byte-compiling /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg/__init__.py to __init__.cpython-310.pyc
+[0.955s] running install_data
+[0.969s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index
+[0.969s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index
+[0.969s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index/packages
+[0.969s] copying resource/warehouse_robot_spawner_pkg -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/ament_index/resource_index/packages
+[0.969s] copying package.xml -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg
+[0.969s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/launch
+[0.969s] copying launch/gazebo_world.launch.py -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/launch
+[0.970s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/worlds
+[0.970s] copying ./worlds/warehouse.world -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/worlds/
+[0.970s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models
+[0.970s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse
+[0.970s] copying ./models/small_warehouse/model.sdf -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse/
+[0.970s] copying ./models/small_warehouse/model.config -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/small_warehouse/
+[0.970s] creating /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot
+[0.970s] copying ./models/mobile_warehouse_robot/model.sdf -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot/
+[0.970s] copying ./models/mobile_warehouse_robot/model.config -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/mobile_warehouse_robot/
+[0.970s] copying ./worlds/warehouse.world -> /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/share/warehouse_robot_spawner_pkg/models/
+[0.970s] running install_egg_info
+[0.984s] Copying ../../build/warehouse_robot_spawner_pkg/warehouse_robot_spawner_pkg.egg-info to /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages/warehouse_robot_spawner_pkg-0.0.0-py3.10.egg-info
+[0.985s] running install_scripts
+[1.112s] Installing spawn_demo script to /home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/warehouse_robot_spawner_pkg
+[1.112s] writing list of installed files to '/home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/install.log'
+[1.132s] Invoked command in '/home/administrador/Desktop/ros-iron/dev_ws/src/warehouse_robot_spawner_pkg' returned '0': PYTHONPATH=/home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/prefix_override:/home/administrador/Desktop/ros-iron/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_spawner_pkg build --build-base /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/build install --record /home/administrador/Desktop/ros-iron/dev_ws/build/warehouse_robot_spawner_pkg/install.log --single-version-externally-managed

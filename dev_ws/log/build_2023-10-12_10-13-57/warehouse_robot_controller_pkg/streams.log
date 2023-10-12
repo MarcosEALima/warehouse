@@ -1,0 +1,55 @@
+[0.708s] Invoking command in '/home/administrador/Desktop/dev_ws/src/warehouse_robot_controller_pkg': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_controller_pkg build --build-base /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build install --record /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/install.log --single-version-externally-managed
+[0.887s] running egg_info
+[0.887s] creating ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info
+[0.900s] writing ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/requires.txt
+[0.900s] writing top-level names to ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/top_level.txt
+[0.901s] writing manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[0.928s] reading manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[0.929s] writing manifest file '../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info/SOURCES.txt'
+[0.929s] running build
+[0.929s] running build_py
+[0.929s] creating /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build
+[0.929s] creating /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib
+[0.929s] creating /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[0.930s] copying warehouse_robot_controller_pkg/robot_estimator.py -> /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[0.930s] copying warehouse_robot_controller_pkg/robot_controller.py -> /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[0.930s] copying warehouse_robot_controller_pkg/__init__.py -> /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg
+[0.930s] running install
+[0.930s] /home/administrador/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.930s] !!
+[0.930s] 
+[0.930s]         ********************************************************************************
+[0.930s]         Please avoid running ``setup.py`` directly.
+[0.930s]         Instead, use pypa/build, pypa/installer or other
+[0.930s]         standards-based tools.
+[0.930s] 
+[0.930s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.930s]         ********************************************************************************
+[0.930s] 
+[0.930s] !!
+[0.930s]   self.initialize_options()
+[0.934s] running install_lib
+[0.947s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[0.948s] copying /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/robot_estimator.py -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[0.948s] copying /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/robot_controller.py -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[0.948s] copying /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build/lib/warehouse_robot_controller_pkg/__init__.py -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg
+[0.948s] byte-compiling /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/robot_estimator.py to robot_estimator.cpython-310.pyc
+[0.949s] byte-compiling /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/robot_controller.py to robot_controller.cpython-310.pyc
+[0.949s] byte-compiling /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg/__init__.py to __init__.cpython-310.pyc
+[0.950s] running install_data
+[0.962s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index
+[0.963s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index
+[0.963s] creating /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index/packages
+[0.963s] copying resource/warehouse_robot_controller_pkg -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/share/ament_index/resource_index/packages
+[0.963s] copying package.xml -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/share/warehouse_robot_controller_pkg
+[0.963s] copying launch/controller_estimator.launch.py -> /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/share/warehouse_robot_controller_pkg
+[0.963s] running install_egg_info
+[0.977s] Copying ../../build/warehouse_robot_controller_pkg/warehouse_robot_controller_pkg.egg-info to /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages/warehouse_robot_controller_pkg-0.0.0-py3.10.egg-info
+[0.977s] running install_scripts
+[1.098s] Installing robot_controller script to /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[1.098s] Installing robot_estimator script to /home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/warehouse_robot_controller_pkg
+[1.098s] writing list of installed files to '/home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/install.log'
+[1.120s] Invoked command in '/home/administrador/Desktop/dev_ws/src/warehouse_robot_controller_pkg' returned '0': PYTHONPATH=/home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/prefix_override:/home/administrador/Desktop/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/warehouse_robot_controller_pkg build --build-base /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/build install --record /home/administrador/Desktop/dev_ws/build/warehouse_robot_controller_pkg/install.log --single-version-externally-managed
