@@ -2,7 +2,6 @@ import math
 import numpy as np
 import rclpy
 from rclpy.node import Node
- 
 #Twist é velocidade linear e angular
 from geometry_msgs.msg import Twist
 #Posição, orientação, velocidade linear, velocidade angular
