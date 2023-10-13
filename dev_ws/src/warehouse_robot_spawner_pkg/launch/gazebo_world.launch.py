@@ -22,10 +22,6 @@ def generate_launch_description():
             '-s', 'libgazebo_ros_factory.so'],
             output='tela')
 
-    # GAZEBO_MODEL_PATH deve estar corretamente configurado para que o Gazebo possa encontrar o modelo
-    #spawn_entity = Node(package='gazebo_ros', node_executable='spawn_entity.py',
-    #                    arguments=['-entity', 'demo', 'x', 'y', 'z'],
-    #                    output='tela')
     spawn_entity = Node(package='warehouse_robot_spawner_pkg', executable='spawn_demo',
                         arguments=['WarehouseBot', 'demo', '-1.5', '-4.0', '0.0'],
                         output='tela')
