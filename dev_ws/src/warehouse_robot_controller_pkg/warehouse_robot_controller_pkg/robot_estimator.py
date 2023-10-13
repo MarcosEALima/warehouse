@@ -35,12 +35,11 @@ class Estimator(Node):
                                     '/demo/state_est', 
                                     10)
 
-    def odom_callback(self, msg):
-        """
-        Recebe as informações de odometria contendo a posição e orientação do robô no quadro de referência global.
-        A posição é x, y, z.
-        A orientação é um quaternion x,y,z,w.
-        """
+    def odom_callback(self, msg):       
+        #Recebe as informações de odometria contendo a posição e orientação do robô no quadro de referência global.
+        #A posição é x, y, z.
+        #A orientação é um quaternion x,y,z,w.
+
         roll, pitch, yaw = self.euler_from_quaternion(
             msg.pose.pose.orientation.x,
             msg.pose.pose.orientation.y,
@@ -51,18 +50,16 @@ class Estimator(Node):
         self.publish_estimated_state(obs_state_vector_x_y_yaw)
 
     def publish_estimated_state(self, state_vector_x_y_yaw):
-        """
-        Publica a pose estimada (posição e orientação) do robô no tópico '/demo/state_est'.
-        x em metros, y em metros, yaw em radianos
-        """
+        #Publica a pose estimada (posição e orientação) do robô no tópico '/demo/state_est'.
+        #x em metros, y em metros, yaw em radianos
+
         msg = Float64MultiArray()
         msg.data = state_vector_x_y_yaw
         self.publisher_state_est.publish(msg)
 
     def euler_from_quaternion(self, x, y, z, w):
-        """
-        Converte um quaternion em ângulos euler (roll, pitch, yaw))
-        """
+        #Converte um quaternion em ângulos euler (roll, pitch, yaw))
+
         t0 = +2.0 * (w * x + y * z)
         t1 = +1.0 - 2.0 * (x * x + y * y)
         roll_x = math.atan2(t0, t1)
@@ -79,9 +76,7 @@ class Estimator(Node):
         return roll_x, pitch_y, yaw_z # em radianos
 
     def velocity_callback(self, msg):
-        """
-        Escuta os comandos de velocidade (velocidade linear na direção x no quadro de referência do robô e velocidade angular (taxa de yaw) em torno do eixo z do robô.
-        """
+        #Escuta os comandos de velocidade (velocidade linear na direção x no quadro de referência do robô e velocidade angular (taxa de yaw) em torno do eixo z do robô.
         v = msg.linear.x
         yaw_rate = msg.angular.z
 
