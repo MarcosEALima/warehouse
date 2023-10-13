@@ -12,7 +12,6 @@ from sensor_msgs.msg import LaserScan
 from rclpy.qos import qos_profile_sensor_data
 #Permite o uso da mensagem std_msgs/Float64MultiArray
 from std_msgs.msg import Float64MultiArray
-#Biblioteca de computação científica para Python
 
 class Estimator(Node):
     def __init__(self):
